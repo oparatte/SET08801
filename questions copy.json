@@ -1,0 +1,884 @@
+[
+    {
+        "ID": "1",
+        "Question": "Famous artist Pablo Picasso belongs to which country?",
+        "AnswerA": "Spain",
+        "AnswerB": "Italy",
+        "AnswerC": "France",
+        "AnswerD": "Portugal",
+        "CorrectAnswer": "A"
+    },
+    {
+        "ID": "2",
+        "Question": "Leonardo da Vinci was one of the leading artists of the High Renaissance, from which country?",
+        "AnswerA": "Spain",
+        "AnswerB": "Ireland",
+        "AnswerC": "Portugal",
+        "AnswerD": "Italy",
+        "CorrectAnswer": "D"
+    },
+    {
+        "ID": "3",
+        "Question": "Which animal is treated the cleanest?",
+        "AnswerA": "Whale",
+        "AnswerB": "Pigs",
+        "AnswerC": "Giraffe",
+        "AnswerD": "Zebra",
+        "CorrectAnswer": "B"
+    },
+    {
+        "ID": "4",
+        "Question": "What is the rarest bug in the world?",
+        "AnswerA": "Panda ant",
+        "AnswerB": "Title Beetle",
+        "AnswerC": "Land/ Tree lobster",
+        "AnswerD": "Karner butterfly",
+        "CorrectAnswer": "C"
+    },
+    {
+        "ID": "5",
+        "Question": "What is the hardest sport in the world?",
+        "AnswerA": "Karate",
+        "AnswerB": "Water Polo",
+        "AnswerC": "Weight Lifting",
+        "AnswerD": "Archery",
+        "CorrectAnswer": "B"
+    },
+    {
+        "ID": "6",
+        "Question": "What is the oldest sport?",
+        "AnswerA": "Wrestling",
+        "AnswerB": "Kabadi",
+        "AnswerC": "Bull Fight",
+        "AnswerD": "Cockfight",
+        "CorrectAnswer": "A"
+    },
+    {
+        "ID": "7",
+        "Question": "What animal is lazy?",
+        "AnswerA": "Tree weta",
+        "AnswerB": "The panda ant",
+        "AnswerC": "Red-fanged funnel spider",
+        "AnswerD": "Sloths",
+        "CorrectAnswer": "D"
+    },
+    {
+        "ID": "8",
+        "Question": "What is the world’s heaviest insect?",
+        "AnswerA": "Stresemann’s Bristlefront",
+        "AnswerB": "Dryococelus australis",
+        "AnswerC": "Land lobster",
+        "AnswerD": "Tree weta",
+        "CorrectAnswer": "C"
+    },
+    {
+        "ID": "9",
+        "Question": "Which footballer has won the most trophies?",
+        "AnswerA": "Vitor Bala",
+        "AnswerB": "Ryan Giggs ",
+        "AnswerC": "Dani Alves",
+        "AnswerD": "Wael Gomaa",
+        "CorrectAnswer": "C"
+    },
+    {
+        "ID": "10",
+        "Question": " Which player has the most Champions League?",
+        "AnswerA": "Paolo Maldini (AC Milan)",
+        "AnswerB": "Francisco Gento (Real Madrid)",
+        "AnswerC": "Alessandro Costacurta (AC Milan)",
+        "AnswerD": "Cristiano Ronaldo (Manchester United, Real Madrid)",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "11",
+        "Question": " What is the biggest comeback in soccer history?",
+        "AnswerA": "Liverpool over Barcelona",
+        "AnswerB": "Spurs match Liverpool’s magic.",
+        "AnswerC": "Blackpool wins the FA Cup over Bolton",
+        "AnswerD": "Sweden’s stages comeback on Germany.",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "12",
+        "Question": " Which team in England has more trophies?",
+        "AnswerA": "Cardiff City",
+        "AnswerB": "Fulham F.C.",
+        "AnswerC": "Aston Villa",
+        "AnswerD": "Man Utd",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "13",
+        "Question": " Which club is the richest in the world?",
+        "AnswerA": "Manchester United",
+        "AnswerB": "Real Madrid",
+        "AnswerC": "Barcelona",
+        "AnswerD": "Liverpool",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "14",
+        "Question": " Which planet rotates the fastest?",
+        "AnswerA": "Jupiter",
+        "AnswerB": "Mars",
+        "AnswerC": "Uranus",
+        "AnswerD": "Saturn",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "15",
+        "Question": " Who is the biggest soccer club in the world?",
+        "AnswerA": "Bayern Munich",
+        "AnswerB": "Barcelona – Spain",
+        "AnswerC": "Manchester United",
+        "AnswerD": "Real Madrid",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "16",
+        "Question": " Who is the best soccer player of all time?",
+        "AnswerA": "Maradona",
+        "AnswerB": "Ronaldo",
+        "AnswerC": "Messi",
+        "AnswerD": "Pele",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "17",
+        "Question": " Which NBL team has won the most championships?",
+        "AnswerA": "Melbourne United",
+        "AnswerB": "Cairns Taipans",
+        "AnswerC": "Perth Wildcats",
+        "AnswerD": "Sydney Kings",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "18",
+        "Question": " What is the best ranked country in hockey?",
+        "AnswerA": "Pakistan",
+        "AnswerB": "Russia",
+        "AnswerC": "Canada",
+        "AnswerD": "Finland",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "19",
+        "Question": " Which country has the most grandmasters",
+        "AnswerA": "Germany",
+        "AnswerB": "Ukraine",
+        "AnswerC": "United States",
+        "AnswerD": "Russia",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "20",
+        "Question": " Which country has the most rivers?",
+        "AnswerA": "Bangladesh",
+        "AnswerB": "Brazil",
+        "AnswerC": "India",
+        "AnswerD": "China",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "21",
+        "Question": " An estimated 50-80% of all life on earth is found under the ocean surface and the oceans contain what percentage of the living space on the planet?",
+        "AnswerA": "0.99",
+        "AnswerB": "0.95",
+        "AnswerC": "0.79",
+        "AnswerD": "0.89",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "22",
+        "Question": " What is the smallest whale?",
+        "AnswerA": "Killer whales",
+        "AnswerB": "Blue whale",
+        "AnswerC": "Dwarf sperm whale",
+        "AnswerD": "Humpback whale",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "23",
+        "Question": " What percent of shark species grow to less than 1.6 m and are unable to hurt people or rarely encounter people? About",
+        "AnswerA": "0.8",
+        "AnswerB": "0.7",
+        "AnswerC": "0.6",
+        "AnswerD": "0.9",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "24",
+        "Question": " What is the Earth’s lowest land point with an elevation of 396 m below sea level?",
+        "AnswerA": "Devis sea",
+        "AnswerB": "Mediterranean sea",
+        "AnswerC": "Arctic Ocean",
+        "AnswerD": "The Dead Sea",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "25",
+        "Question": " What is the slowest sea animal?",
+        "AnswerA": "Blobfish",
+        "AnswerB": "Sloths",
+        "AnswerC": "Starfish ",
+        "AnswerD": "Snail",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "26",
+        "Question": " What are the three species of sharks which have been identified repeatedly in fatal bites?",
+        "AnswerA": "Great whites",
+        "AnswerB": "Tigers",
+        "AnswerC": "Nurse Sharks",
+        "AnswerD": "Bull sharks",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "27",
+        "Question": " Less than 10% of that space has been explored by humans. 85% of the area and 90% of the volume constitute the dark, cold environment we call the",
+        "AnswerA": "Surface sea",
+        "AnswerB": "Deep-sea",
+        "AnswerC": "Underground see",
+        "AnswerD": "Unfathomable sea",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "28",
+        "Question": " How many shark species are there?",
+        "AnswerA": "200 or more",
+        "AnswerB": "300 or more",
+        "AnswerC": "400 or more",
+        "AnswerD": "500 or more",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "29",
+        "Question": " What animals Cannot feel pain?",
+        "AnswerA": "Most of Chordates",
+        "AnswerB": "Most of insects",
+        "AnswerC": "Most of vertebrates",
+        "AnswerD": "Most of invertebrates",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "30",
+        "Question": " What year was Wimbledon boycotted by the Association of Tennis Professionals ?",
+        "AnswerA": "1971",
+        "AnswerB": "1973 ",
+        "AnswerC": "1975",
+        "AnswerD": "1977",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "31",
+        "Question": " Who was the only player that won Wimbledon after entering with a Wildcard ?",
+        "AnswerA": "Goran Ivanisevic",
+        "AnswerB": "Novak Djokovic",
+        "AnswerC": "Roger Federer",
+        "AnswerD": "Ivan Lendl",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "32",
+        "Question": " Who was the only male player to achieve a Grand Slam (winning all four majors in a calendar year) twice during his career ?",
+        "AnswerA": "Pete Sampras",
+        "AnswerB": "Bjorn Borg",
+        "AnswerC": "Rod Laver ",
+        "AnswerD": "Jimmy Connors",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "33",
+        "Question": " Who was the youngest tennis player to ever be ranked number 1 in the world?",
+        "AnswerA": "Martina Hingis",
+        "AnswerB": "Lleyton Hewitt",
+        "AnswerC": "Roger Federer",
+        "AnswerD": "Cori “Coco” Gauff",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "34",
+        "Question": " When were yellow tennis balls first used at Wimbledon ?",
+        "AnswerA": "1781",
+        "AnswerB": "1999",
+        "AnswerC": "1882",
+        "AnswerD": "1986",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "35",
+        "Question": " Who is the youngest tennis player?",
+        "AnswerA": "Andre Agassi",
+        "AnswerB": "Rafael Nadal",
+        "AnswerC": "Steffi Graf",
+        "AnswerD": "Cori “Coco” Gauff",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "36",
+        "Question": " What is the least aggressive shark?",
+        "AnswerA": "Caribbean Reef Shark",
+        "AnswerB": "Nurse Shark",
+        "AnswerC": "Leopard Shark",
+        "AnswerD": "Angel Shark",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "37",
+        "Question": " What is the rarest bird?",
+        "AnswerA": "Orange-Bellied Parrot",
+        "AnswerB": "ew Caledonian Owlet-Nightjar",
+        "AnswerC": "Stresemann’s Bristlefront",
+        "AnswerD": "Forest Owlet",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "38",
+        "Question": " Most of the solar system’s mass is in the Sun itself, the mass is",
+        "AnswerA": "Between 99.8 and 99.9 percent",
+        "AnswerB": "Between 89.8 and 89.9 percent",
+        "AnswerC": "Between 79.8 and 79.9 percent",
+        "AnswerD": "Between 90 and 95 percent",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "39",
+        "Question": " Which planet rotates the slowest?",
+        "AnswerA": "Earth",
+        "AnswerB": "Venus",
+        "AnswerC": "Mars",
+        "AnswerD": "Mercury",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "40",
+        "Question": " which planet rotates in clockwise direction",
+        "AnswerA": "Saturn",
+        "AnswerB": "Mercury",
+        "AnswerC": "Venus",
+        "AnswerD": "Mars",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "41",
+        "Question": " Lunar libration lets us see more than ____ of the moon.",
+        "AnswerA": "0.5",
+        "AnswerB": "0.8",
+        "AnswerC": "1",
+        "AnswerD": "0.2",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "42",
+        "Question": " Which side of the moon do we see?",
+        "AnswerA": "No side, just an image",
+        "AnswerB": "All sides",
+        "AnswerC": "Two sides",
+        "AnswerD": "One side",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "43",
+        "Question": " We have the same amount of hair on our bodies as a-",
+        "AnswerA": "Lion",
+        "AnswerB": "Alien",
+        "AnswerC": "Chimpanzee",
+        "AnswerD": "Bear",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "44",
+        "Question": " What is the most amount of chemical in our body?",
+        "AnswerA": "Blood",
+        "AnswerB": "Water",
+        "AnswerC": "Oxygen",
+        "AnswerD": "Nitrogen",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "45",
+        "Question": " Chemical name of Caustic Potash is",
+        "AnswerA": "Green Vitriol",
+        "AnswerB": "Potassium Hydroxide",
+        "AnswerC": "Potassium Silicet",
+        "AnswerD": "Potassium Aluminum Sulphate",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "46",
+        "Question": " Collosium was made by",
+        "AnswerA": "Aztecs",
+        "AnswerB": "Greek",
+        "AnswerC": "Romans",
+        "AnswerD": "Byzantiums",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "47",
+        "Question": " The average of the highest and lowest temperatures during a 24-hour period is called?",
+        "AnswerA": "Mean Daily Temperature",
+        "AnswerB": "Medium Daily Temperature",
+        "AnswerC": "Average Daily Temperature",
+        "AnswerD": "Optimum Daily Temperature",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "48",
+        "Question": " How much snow a single snowstorm can drop?",
+        "AnswerA": "4 million tons",
+        "AnswerB": "20 million tons",
+        "AnswerC": "12 million tons",
+        "AnswerD": "40 million tons",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "49",
+        "Question": " Permanent snow and ice cover about what percentage of the Earth’s land surface?",
+        "AnswerA": "0.12",
+        "AnswerB": "0.06",
+        "AnswerC": "0.21",
+        "AnswerD": "0.24",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "50",
+        "Question": " What is cumulonimbus?",
+        "AnswerA": "Largest ice",
+        "AnswerB": "Biggest underwater volcano",
+        "AnswerC": "Biggest clouds",
+        "AnswerD": "Biggest asterids",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "51",
+        "Question": " Energy created by a single snowstorm is equivalent to",
+        "AnswerA": "12 atom bombs",
+        "AnswerB": "120 atom bombs",
+        "AnswerC": "20 atom bombs",
+        "AnswerD": "1 atom bombs",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "52",
+        "Question": " What percent of the world’s fresh water is locked up as ice or snow.",
+        "AnswerA": "0.6",
+        "AnswerB": "0.8",
+        "AnswerC": "0.7",
+        "AnswerD": "0.95",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "53",
+        "Question": " How much tiem does it takes for the Light to travel from the sun takes to reach the earth?",
+        "AnswerA": "8 minutes",
+        "AnswerB": "1 minute",
+        "AnswerC": "7 minutes",
+        "AnswerD": "12 minutes",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "54",
+        "Question": " At any particular time, how many thunderstorms are approximately occurring in the Earth’s atmosphere?",
+        "AnswerA": "2,200",
+        "AnswerB": "800",
+        "AnswerC": "1,800 ",
+        "AnswerD": "200",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "55",
+        "Question": " What is kelp?",
+        "AnswerA": "Silica",
+        "AnswerB": "Astoroid",
+        "AnswerC": "Fern",
+        "AnswerD": "Algae",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "56",
+        "Question": " Brazil is named after a",
+        "AnswerA": "Tree",
+        "AnswerB": "Goddess",
+        "AnswerC": "Grass",
+        "AnswerD": "RIver",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "57",
+        "Question": " What is Dendrochronology?",
+        "AnswerA": "Study of of calculating the chonology of civilization",
+        "AnswerB": "Science of calculating a tree’s age by its rings.",
+        "AnswerC": "Science of calculating dndruff in the hair",
+        "AnswerD": "Research of calculating the age of the earth",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "58",
+        "Question": " What serves the function of a pesticide in a coffee plan?",
+        "AnswerA": "Caffeine",
+        "AnswerB": "Xelotin",
+        "AnswerC": "Genin",
+        "AnswerD": "Tayasinin",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "59",
+        "Question": " Apple is ___ air, that is why it floats on water.",
+        "AnswerA": "0.1",
+        "AnswerB": "0.05",
+        "AnswerC": "0.25",
+        "AnswerD": "0.5",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "60",
+        "Question": " Cricket bats are made of a tree called",
+        "AnswerA": "Sequoia ",
+        "AnswerB": "Redwoods ",
+        "AnswerC": "Rhododendron",
+        "AnswerD": "Willow",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "61",
+        "Question": " Baseball bats are made out of the wood which tree?",
+        "AnswerA": "Llangernyw Yew",
+        "AnswerB": "Willow",
+        "AnswerC": "Hickory",
+        "AnswerD": "Oak",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "62",
+        "Question": " What is the name of the oldest tree in the world?",
+        "AnswerA": "Pando",
+        "AnswerB": "Methuselah",
+        "AnswerC": "Old Tjikko",
+        "AnswerD": "Great Basin Bristlecone Pine",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "63",
+        "Question": " What is the longest tree in the world?",
+        "AnswerA": "Kauri ",
+        "AnswerB": "Giant sequoia",
+        "AnswerC": "Coast redwood",
+        "AnswerD": "Jurupa Oak",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "64",
+        "Question": " During lifetime, we produce enough _____ to fill two olympic sized swimming pools.",
+        "AnswerA": "Urine",
+        "AnswerB": "Sweat",
+        "AnswerC": "Blood",
+        "AnswerD": "Saliva",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "65",
+        "Question": " Our nose can remember how many types of different scents?",
+        "AnswerA": "5,000",
+        "AnswerB": "50,000",
+        "AnswerC": "5,00,000",
+        "AnswerD": "1,000",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "66",
+        "Question": " Women’s hearts beat _____ than men’s.",
+        "AnswerA": "double",
+        "AnswerB": "equal",
+        "AnswerC": "slower",
+        "AnswerD": "faster",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "67",
+        "Question": " Relative to size, the strongest muscle in body is the",
+        "AnswerA": "Tongue",
+        "AnswerB": "Jaw",
+        "AnswerC": "Arm",
+        "AnswerD": "Thigh",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "68",
+        "Question": " How many muscles it takes to smile?",
+        "AnswerA": "29",
+        "AnswerB": "55",
+        "AnswerC": "17",
+        "AnswerD": "2",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "69",
+        "Question": " How many muscles it takes to frown?",
+        "AnswerA": "22",
+        "AnswerB": "57",
+        "AnswerC": "43",
+        "AnswerD": "11",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "70",
+        "Question": " How many muscles it takes to punch someone?",
+        "AnswerA": "7",
+        "AnswerB": "3",
+        "AnswerC": "41",
+        "AnswerD": "17",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "71",
+        "Question": " Which organ has the same size during birth and death?",
+        "AnswerA": "Lungs",
+        "AnswerB": "Ears",
+        "AnswerC": "Nose",
+        "AnswerD": "Eyes",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "72",
+        "Question": " Which body parts never stop growing?",
+        "AnswerA": "nose and ears ",
+        "AnswerB": "eyes and teeth",
+        "AnswerC": "hearts and lungs",
+        "AnswerD": "ears and eyes",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "73",
+        "Question": " Which of the following part of the body cant self heal?",
+        "AnswerA": "Eyes",
+        "AnswerB": "Teeth",
+        "AnswerC": "Hearts",
+        "AnswerD": "Intestines",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "74",
+        "Question": " Which body part itself cannot feel pain?",
+        "AnswerA": "Tissue",
+        "AnswerB": "Teeth",
+        "AnswerC": "Brain",
+        "AnswerD": "Muscles",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "75",
+        "Question": " The largest internal organ is the",
+        "AnswerA": "Heart",
+        "AnswerB": "Large intestine",
+        "AnswerC": "Liver",
+        "AnswerD": "Small intestine",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "76",
+        "Question": " _______ regularly exceed 100 mph & nerve impulses to and from the brain travel as fast as 170 miles per hour.",
+        "AnswerA": "Sneezes",
+        "AnswerB": "Blood",
+        "AnswerC": "Carbon dioxide",
+        "AnswerD": "Signals",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "77",
+        "Question": " The Nobel Prize in Economic Sciences has been awarded 51 times to how many Laureates between 1969 and 2019?",
+        "AnswerA": "65",
+        "AnswerB": "51",
+        "AnswerC": "84",
+        "AnswerD": "52",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "78",
+        "Question": " The colder the room you sleep in, the better the chances are that you’ll have a",
+        "AnswerA": "Sound sleep",
+        "AnswerB": "Bad dream",
+        "AnswerC": "Good dream",
+        "AnswerD": "Smooth digestion",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "79",
+        "Question": " What colors appear in the middle of the Bangladesh flag?",
+        "AnswerA": "White triangle",
+        "AnswerB": "Green Star",
+        "AnswerC": "Blue stripe",
+        "AnswerD": "Red circle",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "80",
+        "Question": " You burn ____ calories while sleeping than you do when watching television.",
+        "AnswerA": "Equal",
+        "AnswerB": "Zero",
+        "AnswerC": "Less",
+        "AnswerD": "More",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "81",
+        "Question": " ________less than 7 hours each night reduces your life expectancy.",
+        "AnswerA": "Sleeping ",
+        "AnswerB": "Working",
+        "AnswerC": "Walking",
+        "AnswerD": "Thinking",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "82",
+        "Question": " What color appears in the middle of the Rwandan flag?",
+        "AnswerA": "Cyan",
+        "AnswerB": "Yellow",
+        "AnswerC": "Green",
+        "AnswerD": "White",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "83",
+        "Question": " Freetown the capital of",
+        "AnswerA": "Congo",
+        "AnswerB": "Cabo Verde",
+        "AnswerC": "Ethiopia",
+        "AnswerD": "Sierra Leone",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "84",
+        "Question": " Which popular gardener created Barnsdale Gardens and was the author of many books such as The Ornamental Kitchen Garden?",
+        "AnswerA": "Alan Titchmarsh",
+        "AnswerB": "Bob Flowerdew",
+        "AnswerC": "Geoff Hamilton",
+        "AnswerD": "Monty Don",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "85",
+        "Question": " Americans on the average eat what volume of pizza every day?",
+        "AnswerA": "55 acres",
+        "AnswerB": "1 acre",
+        "AnswerC": "18 acres",
+        "AnswerD": "8 acres",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "86",
+        "Question": " About what percent of ultra-violet rays from the sun can get through the cloud and cause sunburn even on cloudy days.",
+        "AnswerA": "0.2",
+        "AnswerB": "0.8",
+        "AnswerC": "0.7",
+        "AnswerD": "0.5",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "87",
+        "Question": " Within three days of the death, the enzymes that once digested your dinner begin",
+        "AnswerA": "to burn you",
+        "AnswerB": "to scare you",
+        "AnswerC": "to eat you",
+        "AnswerD": "to leave you",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "88",
+        "Question": " About 10,000 human cells can fit on",
+        "AnswerA": "the head of a pen",
+        "AnswerB": "the head of an ant",
+        "AnswerC": "the head of a wasp",
+        "AnswerD": "the head of a pin",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "89",
+        "Question": " You have no sense of smell when you’re",
+        "AnswerA": "Underwater",
+        "AnswerB": "Eating",
+        "AnswerC": "Sleeping",
+        "AnswerD": "Underground",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "90",
+        "Question": " Astronauts cannot burp in space because there is no",
+        "AnswerA": "Pressure",
+        "AnswerB": "Gravity",
+        "AnswerC": "Air",
+        "AnswerD": "Oxygen",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "91",
+        "Question": " Around what percent of the cells that make humans aren’t human in origin. We’re mostly fungi and bacteria.",
+        "AnswerA": "0.5",
+        "AnswerB": "0.99",
+        "AnswerC": "0.9",
+        "AnswerD": "0.7",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "92",
+        "Question": " Approximately 75% of human waste is made of",
+        "AnswerA": "Dust",
+        "AnswerB": "Sweat",
+        "AnswerC": "Air",
+        "AnswerD": "Water",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "93",
+        "Question": " Babies start dreaming ____ they’re born.",
+        "AnswerA": "after",
+        "AnswerB": "before ",
+        "AnswerC": "during",
+        "AnswerD": "never",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "94",
+        "Question": " What are molecules or polyatomic ions with identical molecular formulas?",
+        "AnswerA": "isomers",
+        "AnswerB": "isotopes",
+        "AnswerC": "radioisotope",
+        "AnswerD": "isogen",
+        "CorrectAnswer": " A"
+    },
+    {
+        "ID": "95",
+        "Question": " Cyanobacteria brought what particle in the year around 2.4 billion years ago?",
+        "AnswerA": "Oxygen",
+        "AnswerB": "Light",
+        "AnswerC": "Nitrogen",
+        "AnswerD": "Water",
+        "CorrectAnswer": " D"
+    },
+    {
+        "ID": "96",
+        "Question": " Which country has the most unique animals?",
+        "AnswerA": "Madagaskar",
+        "AnswerB": "Colombia ",
+        "AnswerC": "Brazil",
+        "AnswerD": "Mozambique",
+        "CorrectAnswer": " B"
+    },
+    {
+        "ID": "97",
+        "Question": " Where do the highest tides in the world occur?",
+        "AnswerA": "Bothnian Bay",
+        "AnswerB": "Bay of Biscay",
+        "AnswerC": "Bay of Fundy",
+        "AnswerD": "Cam Ranh Bay",
+        "CorrectAnswer": " C"
+    },
+    {
+        "ID": "98",
+        "Question": ". How many types pf kelp (algie) are there in the ocean water",
+        "AnswerA": "30 ",
+        "AnswerB": "60",
+        "AnswerC": "90",
+        "AnswerD": "more than 100",
+        "CorrectAnswer": ". A"
+    }
+]
