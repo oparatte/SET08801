@@ -2,20 +2,18 @@
     {
         "ID": "1",
         "Question": "Famous artist Pablo Picasso belongs to which country?",
-        "AnswerA": "Spain",
-        "AnswerB": "Italy",
-        "AnswerC": "France",
-        "AnswerD": "Portugal",
-        "CorrectAnswer": "A"
+        "Answers":["Spain", "Italy","France", "Portugal"],
+        "CorrectAnswer": "Spain"
     },
     {
         "ID": "2",
         "Question": "Leonardo da Vinci was one of the leading artists of the High Renaissance, from which country?",
-        "AnswerA": "Spain",
-        "AnswerB": "Ireland",
-        "AnswerC": "Portugal",
-        "AnswerD": "Italy",
-        "CorrectAnswer": "D"
+        "Answers" : [
+            {"Name" : "Spain", "IsCorrect" : true},
+            {"Name": "Ireland", "IsCorrect" : false},
+            {"Name": "Italy", "IsCorrect" : false},
+            {"Name": "France", "IsCorrect" : false},
+        ]
     },
     {
         "ID": "3",

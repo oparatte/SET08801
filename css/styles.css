@@ -1,0 +1,25 @@
+/* Apply box-sizing property to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Adjust text size on some browsers */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/* Define fonts */
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Define colour palette */
+:root {
+--crimson: #db0038ff;
+--golden-poppy: #f7c200ff;
+--carolina-blue: #519dd9ff;
+--maximum-blue-green: #53bac1ff;
+--cultured: #edededff;
+}
+
+
+
+

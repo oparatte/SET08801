@@ -1,27 +1,59 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Untitled Document</title>
-
+    <meta charset="utf-8">
+    <title>Welcome to QuizMaster</title>
+    <meta name="author" content="QuizMaster">
+    <meta name="description" content="QuizMaster website home page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="icon" type="image/png" href="">-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <h1>Learning JavaScript</h1>
+    <header>
+        <nav class="row column small-12">
+            <img class="logo" src="images/quizmaster-logo.png" alt="QuizMaster Logo">
+            <input class="checkbox" type="checkbox" />
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu limited">
+                <li class="active"><a href="#Index">Home</a></li>
+                <li><a href="#Popular Quizzes">Popular Quizzes</a></li>
+                <li><a href="#Quiz Categorie">Quiz Categorie</a></li>
+                <li><a href="#Leader Board">Leader Board</a></li>
+                <li><a href="#contact Us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <button onclick="display(0)"> Question 1</button> <br>
-    <button onclick="display(1)"> Question 2</button> <br>
-    <button onclick="display(2)"> Question 3</button> <br>
-    <br>
-    <div id="question"></div>
-    <div id="answer1"></div>
-    <div id="answer2"></div>
-    <div id="answer3"></div>
-    <div id="answer4"></div>
+    <main>
+        <div class="row">
+            <img src="images/Quiz-Time_hero.jpeg" alt="QuizMaster Hero Image" width="1140" height="561">
 
-</body>
+            <section class="limited">
+                <h1>
+                    Popular quizzes
+                </h1>
+                
+            </section>
 
-<script type="text/javascript" src="js/question.js"></script>
+            <section class="limited">
+                <h1>
+                    Quiz Categories
+                </h1>
+            </section>
+        </div>
+    </main>
+
+<body>
 
 </html>

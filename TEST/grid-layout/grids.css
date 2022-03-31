@@ -1,0 +1,112 @@
+/* Define colour palette */
+:root {
+    --crimson: #db0038ff;
+    --golden-poppy: #f7c200ff;
+    --carolina-blue: #519dd9ff;
+    --maximum-blue-green: #53bac1ff;
+    --cultured: #edededff;
+    }
+
+/* Grid layout css: increasing screen size order*/
+
+/* Base grid layout */
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 10px;
+    grid-template-rows: 100px;
+}
+
+header,
+footer,
+nav {
+    grid-column: 1 / -1;
+}
+
+main {
+    grid-column: 1 / -1;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ......../ media queries /.......... */
+
+/* Extra small devices - 400px and down */
+
+.row {clear: both;}
+
+.column {float: left;} 
+
+.small-12 {width: 100%;}
+
+/* navigation rules */
+button#hamburgerBtn { 
+    background: none;
+    border:none;
+    color: #fff;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
+}
+nav {
+    background-color: var(--maximum-blue-green);
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 0.1);
+}
+
+nav ul{margin:0; padding: 0;}
+nav li {list-style-type: none;}
+
+nav a {
+    display: block;
+    padding: .8rem 0; 
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+nav li.active {background-color: rgba(0,0,0,0.3);}
+nav a:hover {background-color: rgba(0,0,0,0.1);}
+nav ul.open {display: block;}
+nav ul {display: none;}
+
+/* Small devices - 400px and up */
+@media only screen and (min-width: 400px) {
+
+
+}
+
+/* Small devices - landscape mode */
+@media only screen and (min-width: 400px) and (orientation: landscape) {
+    
+
+}
+
+/* Medium devices - 768px and up*/
+@media only screen and (min-width: 768px) {
+    .medium-6 {width: 50%;}
+    
+}
+
+/* Large devices - 992px and up) */
+@media only screen and (min-width:992px) {
+    .large-3{width: 25%;}
+
+    .limited{
+        max-width: 1140px;
+        margin: auto;
+    }
+    
+    nav button {display: none;}
+    nav ul {display: block;}
+    nav li {width: 20%; float: left;}
+}
+
+/* Extra large devices - 1200px and up) */
+
+/* */
+
+
+/* */
