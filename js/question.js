@@ -1,7 +1,7 @@
 // JavaScript Document
 var question;
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'questions.json', true)
+xhr.open('GET', 'TEST/questions.json', true)
 xhr.responseType = 'text'; //specify type is text
 xhr.send();
 
