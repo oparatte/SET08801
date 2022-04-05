@@ -1,19 +1,21 @@
 [
     {
         "ID": "1",
-        "Question": "Famous artist Pablo Picasso belongs to which country?",
-        "Answers":["Spain", "Italy","France", "Portugal"],
-        "CorrectAnswer": "Spain"
+        "question": "Famous artist Pablo Picasso belongs to which country?",
+        "choice1": "Spain",
+        "choice2": "Italy",
+        "choice3": "France",
+        "choice4": "Portugal",
+        "CorrectAnswer": "1"
     },
     {
         "ID": "2",
-        "Question": "Leonardo da Vinci was one of the leading artists of the High Renaissance, from which country?",
-        "Answers" : [
-            {"Name" : "Spain", "IsCorrect" : true},
-            {"Name": "Ireland", "IsCorrect" : false},
-            {"Name": "Italy", "IsCorrect" : false},
-            {"Name": "France", "IsCorrect" : false},
-        ]
+        "question": "Leonardo da Vinci was one of the leading artists of the High Renaissance, from which country?",
+        "choice1": "Spain",
+        "choice2": "Ireland",
+        "choice3": "Portugal",
+        "choice4": "Italy",
+        "CorrectAnswer": "4"
     },
     {
         "ID": "3",

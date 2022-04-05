@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Welcome to QuizMaster</title>
+    <title>QuizMaster | Quiz results</title>
     <meta name="author" content="QuizMaster">
-    <meta name="description" content="QuizMaster website home page">
+    <meta name="description" content="QuizMaster results page">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/grid.css">
@@ -27,7 +27,7 @@
                 <span class="line line3"></span>
             </div>
             <ul class="menu limited">
-                <li class="active"><a href="/index.html">Home</a></li>
+                <li><a href="/index.html">Home</a></li>
                 <li><a href="#Popular Quizzes">Popular Quizzes</a></li>
                 <li><a href="#Quiz Categorie">Quiz Categorie</a></li>
                 <li><a href="#Leader Board">Leader Board</a></li>
@@ -37,26 +37,36 @@
     </header>
 
     <main>
-        <div class="row">
-            <img src="images/Quiz-Time_hero.jpeg" alt="QuizMaster Hero Image" width="1140" height="561">
-
-            <section class="limited">
-                <h1>
-                    Popular quizzes
-                </h1>
-
-                <a href="/quiz.html">Start Quiz</a>
-                
-            </section>
-
-            <section class="limited">
-                <h1>
-                    Quiz Categories
-                </h1>
-            </section>
+        <!-- results container -->
+        <div class="results-container limited">
+            <h1 id="final-score"></h1>
+            <h2 id="nb-correct"></h2>
+            <h2 id="result-text"></h2>
+            <form>
+                <input
+                type="text"
+                name="playername"
+                id="playername"
+                placeholder="enter your name"
+                />
+                <button
+                    type="submit"
+                    class="btn"
+                    id="saveScoreBtn"
+                    onclick="saveHighScore(event)"
+                    disabled
+                    >
+                    Save
+                </button>
+            </form>
+            <br>
+            <a class="btn" href="/quiz.html">Play Again</a> <br>
+            <a class="btn" href="/">Go Home</a>
         </div>
+
     </main>
 
-<body>
+    <script src="/js/results.js"></script>
 
+    <body>
 </html>
