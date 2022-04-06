@@ -16,16 +16,16 @@ finalScore.innerText = 'You scored ' + latestScore + ' Points';
 nbCorrectAnswers.innerText = "You've answersed " + correctAnswers + ' questions correctly';
 
 // Display result text based on score
-if (latestScore >= 30) {
+if (latestScore >= 600) {
     resultText.innerText = 'congrats! 🎉';
 }
 
-else if (latestScore > 10) {
+else if (latestScore > 300) {
     resultText.innerText = 'Nice 😎';
 }
 
 else {
-    resultText.innerText = 'Next time 😐';
+    resultText.innerText = 'You'll do better next time 😐';
 }
 
 // Enable save button only if name entered
@@ -47,4 +47,5 @@ saveHighScore = (e) => {
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
     window.location.assign('/');
+
 };

@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Famous artist Pablo Picasso belongs to which country?",
+        "choice1": "Spain",
+        "choice2": "Italy",
+        "choice3": "France",
+        "choice4": "Portugal",
+        "answer": "A"
+    },
+    {
+        "question": "Leonardo da Vinci was one of the leading artists of the High Renaissance, from which country?",
+        "choice1": "Spain",
+        "choice2": "Ireland",
+        "choice3": "Portugal",
+        "choice4": "Italy",
+        "answer": "D"
+    },
+    {
+        "question": "Which animal is treated the cleanest?",
+        "choice1": "Whale",
+        "choice2": "Pigs",
+        "choice3": "Giraffe",
+        "choice4": "Zebra",
+        "answer": "B"
+    },
+    {
+        "question": "What is the rarest bug in the world?",
+        "choice1": "Panda ant",
+        "choice2": "Title Beetle",
+        "choice3": "Land/ Tree lobster",
+        "choice4": "Karner butterfly",
+        "answer": "C"
+    },
+    {
+        "question": "What is the hardest sport in the world?",
+        "choice1": "Karate",
+        "choice2": "Water Polo",
+        "choice3": "Weight Lifting",
+        "choice4": "Archery",
+        "answer": "B"
+    },
+    {
+        "question": "What is the oldest sport?",
+        "choice1": "Wrestling",
+        "choice2": "Kabadi",
+        "choice3": "Bull Fight",
+        "choice4": "Cockfight",
+        "answer": "A"
+    },
+    {
+        "question": "What animal is lazy?",
+        "choice1": "Tree weta",
+        "choice2": "The panda ant",
+        "choice3": "Red-fanged funnel spider",
+        "choice4": "Sloths",
+        "answer": "D"
+    },
+    {
+        "question": "What is the world’s heaviest insect?",
+        "choice1": "Stresemann’s Bristlefront",
+        "choice2": "Dryococelus australis",
+        "choice3": "Land lobster",
+        "choice4": "Tree weta",
+        "answer": "C"
+    },
+    {
+        "question": "Which footballer has won the most trophies?",
+        "choice1": "Vitor Bala",
+        "choice2": "Ryan Giggs ",
+        "choice3": "Dani Alves",
+        "choice4": "Wael Gomaa",
+        "answer": "C"
+    },
+    {
+        "question": " Which player has the most Champions League?",
+        "choice1": "Paolo Maldini (AC Milan)",
+        "choice2": "Francisco Gento (Real Madrid)",
+        "choice3": "Alessandro Costacurta (AC Milan)",
+        "choice4": "Cristiano Ronaldo (Manchester United, Real Madrid)",
+        "answer": " B"
+    }
+]

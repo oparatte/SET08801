@@ -2,7 +2,9 @@ var slider = document.getElementById('slider'),
     sliderItems = document.getElementById('items'),
     prev = document.getElementById('prev'),
     next = document.getElementById('next');
+
 slide(slider, sliderItems, prev, next);
+
 function slide(wrapper, items, prev, next) {
   var posX1 = 0,
       posX2 = 0,
@@ -52,6 +54,7 @@ function slide(wrapper, items, prev, next) {
       document.onmousemove = dragAction;
     }
   }
+
   function dragAction (e) {
     e = e || window.event;
     
@@ -74,6 +77,7 @@ function slide(wrapper, items, prev, next) {
     } else {
       items.style.left = (posInitial) + "px";
     }
+
     document.onmouseup = null;
     document.onmousemove = null;
   }
@@ -83,6 +87,7 @@ function slide(wrapper, items, prev, next) {
     
     if (allowShift) {
       if (!action) { posInitial = items.offsetLeft; }
+
       if (dir == 1) {
         items.style.left = (posInitial - slideSize) + "px";
         index++;      
@@ -97,10 +102,12 @@ function slide(wrapper, items, prev, next) {
     
   function checkIndex (){
     items.classList.remove('shifting');
+
     if (index == -1) {
       items.style.left = -(slidesLength * slideSize) + "px";
       index = slidesLength - 1;
     }
+
     if (index == slidesLength) {
       items.style.left = -(1 * slideSize) + "px";
       index = 0;

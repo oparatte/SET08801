@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/grid.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/TEST/Carousel/carousel2.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
         rel="stylesheet">
 </head>
@@ -37,27 +38,22 @@
     </header>
 
     <main>
-        <div class="row">
-            <img src="images/Quiz-Time_hero.jpeg" alt="QuizMaster Hero Image" width="1140" height="561">
-
-            <section class="limited">
-                <h1>
-                    Popular quizzes
-                </h1>
-
-                <a href="/quiz.html?category=questions.json">Start WebTech Quiz</a> <br>
-                <a href="/quiz.html?category=genKnowledge.json">Start General Knowledge Quiz</a>
-                
-            </section>
-
-            <section class="limited">
-                <h1>
-                    Quiz Categories
-                </h1>
-            </section>
-        </div>
+        <div id="slider" class="slider">
+            <div class="wrapper">
+              <div id="items" class="items">
+                <span class="slide">Slide 1</span>
+                <span class="slide">Slide 2</span>
+                <span class="slide">Slide 3</span>
+                <span class="slide">Slide 4</span>
+                <span class="slide">Slide 5</span>
+                ...
+              </div>
+            </div>
+            <a id="prev" class="control prev"></a>
+            <a id="next" class="control next"></a>
+          </div>
     </main>
-
-<body>
+    <script src="/TEST/Carousel/carousel2.js"></script>
+</body>
 
 </html>
