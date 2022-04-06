@@ -25,7 +25,7 @@ else if (latestScore > 300) {
 }
 
 else {
-    resultText.innerText = 'Next time 😐';
+    resultText.innerText = 'You'll do better next time 😐';
 }
 
 // Enable save button only if name entered
