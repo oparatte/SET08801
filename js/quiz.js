@@ -15,6 +15,7 @@ let availableQuesions = []; // array of avialable questions
 let counter; // timer counter
 let correctAnswers = 0; // correct answers counter
 let wrongAnswers = 0; // wrong answers counter
+let timeScore; // ti include time in score calculation
 
 // Constants definition
 const CORRECT_POINTS = 10; // number of points for correct answer
@@ -83,7 +84,8 @@ answers.forEach((choice) => {
         console.log(selectedAnswer) // --- DEBUG ONLY ---  
 
         if (selectedAnswer == currentQuestion.answer) {
-            score = score + CORRECT_POINTS;
+            score = score + (CORRECT_POINTS * timeScore);
+            console.log(score) // --- DEBUG ONLY --- 
             correctAnswers++;
         }
 
@@ -103,6 +105,7 @@ startTimer = (time) => {
         else {
             timeCount.innerText = 'Time left: ' + time;
             time--;
+            timeScore = time
         };
     };
 };
