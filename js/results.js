@@ -3,9 +3,9 @@ const playername = document.getElementById('playername'); // reference to userna
 const saveScoreBtn = document.getElementById('saveScoreBtn'); // reference to save score button
 const finalScore = document.getElementById('final-score'); // reference to final-score text
 const nbCorrectAnswers = document.getElementById('nb-correct'); // reference to nb-correct text
-const resultText = document.getElementById('result-text');
-const latestScore = localStorage.getItem('latestScore');
-const correctAnswers = localStorage.getItem('latestCorrect');
+const resultText = document.getElementById('result-text'); // reference to result-text text
+const latestScore = localStorage.getItem('latestScore'); // reference to score in local storage
+const correctAnswers = localStorage.getItem('latestCorrect'); // reference to nb of correct answers in local storage
 
 const highScores = JSON.parse(localStorage.getItem('highScores')) || []; // read highScores array or create it 
 
@@ -25,7 +25,7 @@ else if (latestScore > 300) {
 }
 
 else {
-    resultText.innerText = 'You'll do better next time 😐';
+    resultText.innerText = "You'll do better next time 😐";
 }
 
 // Enable save button only if name entered

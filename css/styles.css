@@ -1,45 +1,19 @@
-
-/*----- Generic sytyles -----*/
-
-/* Apply box-sizing property to all elements */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-/* Adjust text size on some browsers */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-/* Define fonts */
-* {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: #333;
-}
-
-/* Define colour palette */
-:root {
---crimson: #db0038ff;
---golden-poppy: #f7c200ff;
---carolina-blue: #519dd9ff;
---maximum-blue-green: #53bac1ff;
---cultured: #edededff;
-}
-
-
-/*----- Quiz page -----*/
+/*-------------- Quiz page --------------*/
 
 /* Answer boxes */
 .answer-box {
-  width: 100%;
-  height: 70px;
-  line-height: 70px; /* adjust to center text*/
-  max-height: 100%;
-  border-radius: 5px;
-  border: none;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	/* adjust to center text*/
+	max-height: 100%;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .2);
 }
 
 #answer1 {background-color: var(--carolina-blue);}
@@ -51,10 +25,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 .answer-box:active {transform: scale(0.98)}
 
-
 .btn[disabled]:hover {
-  cursor: not-allowed;
-  box-shadow: none;
-  transform: none;
+	cursor: not-allowed;
+	box-shadow: none;
+	transform: none;
 }
-

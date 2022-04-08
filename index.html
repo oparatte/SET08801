@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header>
-        <nav class="row column small-12">
+    <header class="rowfix">
+        <nav class="row small-12">
             <a href="/index.html">
                 <img class="logo" src="/images/quizmaster-logo.png" alt="QuizMaster Logo">
             </a>
@@ -38,26 +39,110 @@
 
     <main>
         <div class="row">
-            <img src="images/Quiz-Time_hero.jpeg" alt="QuizMaster Hero Image" width="1140" height="561">
+            <img src="images/Quiz-Time_hero.jpeg" alt="QuizMaster Banner Image" width="1400" height="358">
 
-            <section class="limited">
-                <h1>
-                    Popular quizzes
-                </h1>
+            <div>
+                <h1> Popular quizzes </h1>
 
-                <a href="/quiz.html?category=questions.json">Start WebTech Quiz</a> <br>
-                <a href="/quiz.html?category=genKnowledge.json">Start General Knowledge Quiz</a>
-                
-            </section>
+                <div id="slider" class="slider">
+                    <div class="wrapper">
+                        <div id="slides" class="slides">
+                            <div class="slide labeled">
+                                <h6>Math</h6>
+                                <img src="images/Math_640.jpg">
+                                <a href="/quiz.html?category=questions.json">Start Quiz</a>
+                            </div>
+                            <div class="slide labeled">
+                                <h6>History</h6>
+                                <img src="images/History_640.jpg">
+                                <a href="/quiz.html?category=genKnowledge.json">Start Quiz</a>
+                            </div>
+                            <div class="slide labeled">
+                                <h6>Food</h6>
+                                <img src="images/Food_640.jpg">
+                                <a href="">Start Quiz</a>
+                            </div>
+                            <div class="slide labeled">
+                                <h6>Movies</h6>
+                                <img src="images/Movies_640.jpg">
+                                <a href="">Start Quiz</a>
+                            </div>
+                            <div class="slide labeled">
+                                <h6>Music</h6>
+                                <img src="images/Music_640.jpg">
+                                <a href="">Start Quiz</a>
+                            </div>
+                        </div>
 
-            <section class="limited">
-                <h1>
-                    Quiz Categories
-                </h1>
-            </section>
+                    </div>
+                        <a id="prev" class="control prev"></a>
+                        <a id="next" class="control next"></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div>
+                <h1> Quiz Categories </h1>
+            </div>
+
         </div>
+
     </main>
 
-<body>
+    <footer class="rowfix">
+
+        <div class="row limited">
+
+            <div class="footer-left column small-12 medium-6 large-4">
+                <img class="logo" src="/images/quizmaster-logo.png" alt="QuizMaster Logo">
+                <div class="footer-link">
+                    <a href=/index.html class="link-1">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Faq</a>
+                    <a href="#">Contact</a>
+                </div>
+                <p class="footer-copyright">QuizMaster © 2022</p>
+            </div>
+
+            <div class="footer-center column small-12 medium-6 large-4">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>1 Quiz Ave</span> Palo Alto, California</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+1.555.555.5555</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@quizmaster.com">support@quizmaster.com</a></p>
+                </div>
+            </div>
+
+            <div class="footer-right column small-12 medium-12 large-4">
+                <p class="footer-company-about">
+                    <span>About QuizMaster</span>
+                    Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor
+                    lacus
+                    vehicula sit amet.
+                </p>
+                <div class="footer-icons">
+                    <a href="https://github.com/oparatte/SET08801" target="_blank" class="fa fa-github"></a>
+                    <a href="#" target="_blank" class="fa fa-facebook"></a>
+                    <a href="#" target="_blank" class="fa fa-twitter"></a>
+                    <a href="#" target="_blank" class="fa fa-instagram"></a>
+                    <a href="#" target="_blank" class="fa fa-youtube"></a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="/js/carousel.js"></script>
+
+    <body>
 
 </html>

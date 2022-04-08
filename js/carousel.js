@@ -1,9 +1,7 @@
 var slider = document.getElementById('slider'),
-    sliderItems = document.getElementById('items'),
+    sliderItems = document.getElementById('slides'),
     prev = document.getElementById('prev'),
     next = document.getElementById('next');
-
-slide(slider, sliderItems, prev, next);
 
 function slide(wrapper, items, prev, next) {
   var posX1 = 0,
@@ -26,7 +24,7 @@ function slide(wrapper, items, prev, next) {
   items.insertBefore(cloneLast, firstSlide);
   wrapper.classList.add('loaded');
   
-  // Mouse and Touch events
+  // Mouse events
   items.onmousedown = dragStart;
   
   // Touch events
@@ -116,3 +114,5 @@ function slide(wrapper, items, prev, next) {
     allowShift = true;
   }
 }
+
+slide(slider, sliderItems, prev, next);

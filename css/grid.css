@@ -1,46 +1,68 @@
-/*----- Base grid layout -----*/
+/*---------------------- Generic sytyles ---------------------- */
 
-body {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 10px;
-  grid-template-rows: 100px;
+/* Apply box-sizing property to all elements */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-header,
-footer {
-  grid-column: 1 / -1;
+/* Adjust text size on some browsers */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
-header,
-nav {
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
+/* Define fonts */
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
 }
 
-main {
-  grid-column: 1 / -1;
+/* Define colour palette */
+:root {
+  --crimson: #db0038ff;
+  --golden-poppy: #f7c200ff;
+  --carolina-blue: #519dd9ff;
+  --maximum-blue-green: #53bac1ff;
+  --cultured: #edededff;
 }
 
-main img {
-  width: 100%;
-  height: auto;
+/* Fix row colapsing if no content */
+.rowfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Define max width for content */
+.limited {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Define column and row propreties */
+.column {
+  float: left;
+  padding: 0 2vw;
+  margin: 0 0 .75rem 0;
 }
 
 .row {
   clear: both;
 }
 
-.column {
-  float: left;
+/*---------------------- Navigation ----------------------*/
+main {
+  margin-top: 65px;
 }
 
-.small-12 {
-  width: 100%;
+nav {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
 }
-
-/*----- Navigation -----*/
-main {margin-top: 65px;}
 
 nav {
   background-color: var(--maximum-blue-green);
@@ -55,7 +77,7 @@ nav img {
   display: block;
   float: left;
   height: 65px;
-  padding: 5px 0 5px 0 ;
+  padding: 5px 0 5px 0;
   margin: 0 0 0 10px;
 }
 
@@ -87,7 +109,7 @@ nav a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/** Hamburger menu **/
+/*------- Hamburger menu -------*/
 nav .menu {
   clear: both;
   max-height: 0;
@@ -163,11 +185,258 @@ nav .checkbox:checked~.menu {
   max-height: 400px;
 }
 
-/*----- Questions display and layout -----*/
+
+/*---------------------- Footer ----------------------*/
+
+/* Generic footer  */
+footer {
+	background-color: var(--cultured);
+	width: 100%;
+	padding-top: 30px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Left footer block */
+footer .logo {
+	height: 80px;
+	margin-bottom: 20px;
+}
+
+.footer-link {
+	margin-bottom: 20px;
+}
+
+.footer-link a {
+	display:inline-block;
+	text-decoration: none;
+}
+
+.footer-link a:before {
+	content: "|";
+	display: inline-block;
+	padding: 0 10px;
+  }
+  
+  .footer-link .link-1:before {
+	content: none;
+  }
+
+.footer-copyright{
+	font-size: 14px;
+}
+
+/* Center footer block */
+.footer-center i{
+	background-color: #333;
+	color: #ffffff;
+	font-size: 20px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 35px;	
+	/*line-height: 10px;*/
+	margin: 0px 10px 20px 10px;
+}
+
+.footer-center i.fa-envelope{
+	font-size: 15px;
+	line-height: 35px;
+}
+
+.footer-center p{
+	display: inline-block;
+	font-size: 14px;
+	/*vertical-align: middle;*/
+	margin: 0;
+}
+
+.footer-center p span{
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.footer-center p a{
+	text-decoration: none;
+	font-size: 14px;
+}
+
+/* Right footer block */
+.footer-company-about{
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-company-about span{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.footer-icons{
+	margin-top: 30px;
+}
+
+.footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #333;
+	border-radius: 4px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-icons a:hover {opacity: 0.8;}
+
+/*-------------- Home page display and layout --------------*/
+
+/* Banner properties */
+main img {
+  width: 100%;
+  height: auto;
+}
+
+main h1 {
+ color: var(--maximum-blue-green);
+}
+
+/*------- Slider properties -------*/
+
+.slider {
+  width: auto;
+  height: 300px;
+}
+
+.wrapper {
+  overflow: display;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+}
+
+.slides {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: -300px;
+  width: 10000px;
+}
+
+/* slides labels */
+.labeled {position: relative;}
+
+.labeled h6, .labeled a {
+    position: absolute;
+    background-color: var(--cultured);
+    margin: 0;
+    text-align: center;
+}
+
+.labeled h6 {
+  width: 100%;  
+  top: 0;
+  padding: 15px;
+  font-size: 2rem;
+  font-weight: 400;
+  opacity: .8;
+  border-radius: 10px 10px 0px 0px;
+
+}
+.labeled a {
+    bottom: 0;
+    font-weight: 700;
+    width: 50%;
+    padding: 10px;
+    align-self: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.labeled a:hover {
+  transform: scale(1.2);
+}
+
+.slide img {border-radius: 10px;}
+
+/* */
+.slides.shifting {
+  transition: left .2s ease-out;
+}
+
+.slide {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 1s;
+  position: relative;
+  background: var(--cultured);
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.control {
+  position: absolute;
+  top: 00%;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50px;
+  margin-top: 600px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 50;
+}
+
+.prev,
+.next {
+  background-size: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.prev {
+  background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronLeft-512.png);
+  left: 20px;
+}
+
+.next {
+  background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronRight-512.png);
+  right: 20px;
+}
+
+.prev:active,
+.next:active {
+  transform: scale(.8);
+}
+
+/*-------------- Questions display and layout --------------*/
 
 /* Questions main container */
 .question-container {
   display: grid;
+  grid-column: 3 / 10;
+  grid-row: 2 / 3;
   grid-template-columns: 1fr;
   grid-template-rows: 30px minmax(80px, auto) 1fr;
   grid-auto-flow: row;
@@ -193,7 +462,7 @@ nav .checkbox:checked~.menu {
 }
 
 
-/* Answers and picture sub container */
+/* Answers sub container */
 .answer-subcontainer {
   display: grid;
   grid-template-columns: 1fr;
@@ -202,15 +471,24 @@ nav .checkbox:checked~.menu {
   gap: 10px;
 }
 
-/*----- Media queries -----*/
+
+
+/*---------------------- Media queries ----------------------*/
 
 /* Small devices - 400px and up */
-@media only screen and (min-width: 400px) {}
+@media only screen and (min-width: 400px) {
+
+/* Dispaly width settings */ 
+.small-12 {
+  width: 100%;
+}
+
+} /* End of small devices */
 
 /** Small devices - landscape mode **/
 @media only screen and (min-width: 400px) and (orientation: landscape) {
 
-/* Answers and picture sub container */
+  /* Answers sub container */
   .answer-subcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -220,39 +498,75 @@ nav .checkbox:checked~.menu {
 
 } /* End of small devices - landscape mode */
 
+
 /* Medium devices - 768px and up*/
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+  /* Dispaly width settings */ 
+  .medium-6 {
+    width: 50%;
+  }
+
+  .medium-12 {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+} /* End of medium devices - 768px and up */
+ 
 
 /* Large devices - 992px and up) */
-@media only screen and (min-width:992px) {
+  @media only screen and (min-width:992px) {
 
-  .large-3 {
-    width: 25%;
-  }
+    /* Dispaly width settings */ 
+    .large-4 {
+      width: 33.33333%;
+    }
 
-  .limited {
-    max-width: 1140px;
-    margin: auto;
-  }
+    /* Hide hamburger menu */ 
+    nav .hamburger-lines {
+      display: none;
+    }
 
-  nav .hamburger-lines {
-    display: none;
-  }
+    /* Display menu bar */
+    nav .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
 
-  nav .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
+    nav li {
+      float: left;
+    }
 
-  nav li {
-    float: left;
-  }
+    nav li a {
+      padding: 20px 30px;
+    }
 
-  nav li a {
-    padding: 20px 30px;
-  }
+    /* Slider size adjustment */
+    .slider {
+      height: 400px;
+    }
+  
+    .wrapper {
+      width: 400px;
+      height: 400px;
+    }
+  
+    .slides {
+      left: -400px;
+    }
+  
+    .slide {
+      width: 400px;
+      height: 400px;
+    }
 
-} /* End of large devices - 992px and up */
+  } /* End of large devices - 992px and up */
 
 /* Extra large devices - 1200px and up) */
