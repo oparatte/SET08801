@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Welcome to QuizMaster</title>
+    <title>QuizMaster | Categories</title>
     <meta name="author" content="QuizMaster">
-    <meta name="description" content="QuizMaster website home page">
+    <meta name="description" content="QuizMaster quiz categories">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/grid.css">
@@ -29,9 +29,9 @@
                 <span class="line line3"></span>
             </div>
             <ul class="menu limited">
-                <li class="active"><a href="/index.html">Home</a></li>
+                <li><a href="/index.html">Home</a></li>
                 <li><a href="#Popular Quizzes">Popular Quizzes</a></li>
-                <li><a href="/categories.html">Quiz Categories</a></li>
+                <li class="active"><a href="/categories.html">Quiz Categories</a></li>
                 <li><a href="#Leader Board">Leader Board</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -40,81 +40,43 @@
 
     <main>
         <div class="row">
-            <div>
-                <img src="images/Quiz-Time_hero.jpeg" alt="QuizMaster Banner Image" width="1400" height="358">
-            </div>
-            <div class="row limited">
-                <div>
-                    <h1> Popular quizzes </h1>
-                </div>
-
-                <div id="slider" class="slider">
-                    <div class="wrapper">
-                        <div id="slides" class="slides">
-                            <div class="slide labeled">
-                                <h6>Maths</h6>
-                                <img src="images/Math_640.jpg">
-                                <a href="/quiz.html?category=/json/questions.json">Start Quiz</a>
-                            </div>
-                            <div class="slide labeled">
-                                <h6>History</h6>
-                                <img src="images/History_640.jpg">
-                                <a href="/quiz.html?category=/json/genKnowledge.json">Start Quiz</a>
-                            </div>
-                            <div class="slide labeled">
-                                <h6>Food</h6>
-                                <img src="images/Food_640.jpg">
-                                <a href="">Start Quiz</a>
-                            </div>
-                            <div class="slide labeled">
-                                <h6>Movies</h6>
-                                <img src="images/Movies_640.jpg">
-                                <a href="">Start Quiz</a>
-                            </div>
-                            <div class="slide labeled">
-                                <h6>Music</h6>
-                                <img src="images/Music_640.jpg">
-                                <a href="">Start Quiz</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <a id="prev" class="control prev"></a>
-                        <a id="next" class="control next"></a>
-                    </div>
-                </div> <!-- end of popular quizzes slider -->
-            </div>
-            
-            <div class="row limited">
-                <div class="category-header">
-                    <h1>Quiz Categories</h1>
-                    <a href="/categories.html">See all</a>
-                </div>
+            <div class="limited">
                 <div class="category-container">
+                    
+                    <h1 class="category-header">General Knowledge</h1>
+                    
                     <div class="category-label">
                         <p>Maths</p>
                         <a href=""><img src="images/Math_640.jpg"></a>
                     </div>
                     <div class="category-label">
                         <p>History</p>
-                        <a href="/categories.html#cat-history"><img src="images/History_640.jpg"></a>
+                        <a href=""><img src="images/History_640.jpg"></a>
                     </div>
+
+                    <h1 id="cat-history" class="category-header">History</h1>
+
                     <div class="category-label"> 
                         <p>Food</p>
                         <a href=""><img src="images/Food_640.jpg"></a>
                     </div>
                     <div class="category-label">
                         <p>Movies</p>
-                        <a href="/categories.html#cat-movies"><img src="images/Movies_640.jpg"></a>
+                        <a href=""><img src="images/Movies_640.jpg"></a>
                     </div>
+
+                    <h1 id="cat-movies" class="category-header">Movies</h1>
+
                     <div class="category-label">
                         <p>Music</p>
                         <a href=""><img src="images/Music_640.jpg"></a>
                     </div>
+
+                    <h1 id="cat-geography" class="category-header">Geography</h1>
+
                     <div class="category-label">
                         <p>Geography</p>
-                        <a href="/categories.html#cat-geography"><img src="images/Geography_640.jpg"></a>
+                        <a href=""><img src="images/Geography_640.jpg"></a>
                     </div>
                     <div class="category-label">
                         <p>Other</p>

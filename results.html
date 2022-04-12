@@ -29,7 +29,7 @@
             <ul class="menu limited">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="#Popular Quizzes">Popular Quizzes</a></li>
-                <li><a href="#Quiz Categorie">Quiz Categorie</a></li>
+                <li><a href="/categories.html">Quiz Categorie</a></li>
                 <li><a href="#Leader Board">Leader Board</a></li>
                 <li><a href="#contact Us">Contact Us</a></li>
             </ul>
@@ -38,30 +38,27 @@
 
     <main>
         <!-- results container -->
-        <div class="results-container limited">
-            <h1 id="final-score"></h1>
-            <h2 id="nb-correct"></h2>
-            <h2 id="result-text"></h2>
-            <form>
-                <input
-                type="text"
-                name="playername"
-                id="playername"
-                placeholder="enter your name"
-                />
-                <button
-                    type="submit"
-                    class="btn"
-                    id="saveScoreBtn"
-                    onclick="saveHighScore(event)"
-                    disabled
-                    >
-                    Save
-                </button>
-            </form>
-            <br>
-            <a class="btn" href="/quiz.html">Play Again</a> <br>
-            <a class="btn" href="/">Go Home</a>
+        <div class="results-container">
+            <div class="score-box limited">
+                <h2 id="final-score"></h2>
+                <h3 id="nb-correct"></h2>
+                <img id="result-img" src="" alt="Score result image">
+                <h2 id="result-text"></h2>
+                <form>
+                    <input type="text" name="playername" id="playername" placeholder="enter your name" /> 
+                    <br>
+                    <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>
+                        Save score
+                    </button>
+                </form>
+                <br>
+
+                <button type="button" class="btn" id="homeBtn" onclick="window.location.href='/index.html';">Go Home</button>
+
+                <button type="button" class="btn" id="catBtn" onclick="window.location.href='/categories.html';">Other Quizzes</button>
+                <br>
+                
+            </div>
         </div>
 
     </main>
@@ -69,4 +66,5 @@
     <script src="/js/results.js"></script>
 
     <body>
+
 </html>

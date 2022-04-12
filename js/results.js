@@ -4,6 +4,7 @@ const saveScoreBtn = document.getElementById('saveScoreBtn'); // reference to sa
 const finalScore = document.getElementById('final-score'); // reference to final-score text
 const nbCorrectAnswers = document.getElementById('nb-correct'); // reference to nb-correct text
 const resultText = document.getElementById('result-text'); // reference to result-text text
+const resultImage = document.getElementById('result-img'); // reference to result-image image
 const latestScore = localStorage.getItem('latestScore'); // reference to score in local storage
 const correctAnswers = localStorage.getItem('latestCorrect'); // reference to nb of correct answers in local storage
 
@@ -17,15 +18,18 @@ nbCorrectAnswers.innerText = "You've answersed " + correctAnswers + ' questions 
 
 // Display result text based on score
 if (latestScore >= 600) {
-    resultText.innerText = 'congrats! 🎉';
+    resultText.innerText = 'Congrats!';
+    resultImage.src = "/images/sheep-thumbsup.gif" ;
 }
 
 else if (latestScore > 300) {
-    resultText.innerText = 'Nice 😎';
+    resultText.innerText = 'Nice';
+    resultImage.src = "images/sheep-clapping.gif";
 }
 
 else {
-    resultText.innerText = "You'll do better next time 😐";
+    resultText.innerText = "You'll do better next time";
+    resultImage.src = "images/sheep-disappointed.gif";
 }
 
 // Enable save button only if name entered
