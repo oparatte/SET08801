@@ -19,7 +19,7 @@ nbCorrectAnswers.innerText = "You've answersed " + correctAnswers + ' questions 
 // Display result text based on score
 if (latestScore >= 600) {
     resultText.innerText = 'Congrats!';
-    resultImage.src = "/images/sheep-thumbsup.gif" ;
+    resultImage.src = "images/sheep-thumbsup.gif" ;
 }
 
 else if (latestScore > 300) {
