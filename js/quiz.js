@@ -58,7 +58,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= NB_QUESTIONS) { // check if questions left in array OR questionCounter
         localStorage.setItem('latestScore', score); // store score in local storage
         localStorage.setItem('latestCorrect', correctAnswers); // store correctAnswers in local storage
-        return window.location.assign('/results.html'); // go to results page
+        return window.location.assign('results.html'); // go to results page
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${NB_QUESTIONS}`; // update quiz progression text
