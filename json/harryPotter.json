@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What was the name of Harry Potter’s pet owl?",
+    "choice1": "Hedwig",
+    "choice2": "Luna",
+    "choice3": "Dobby",
+    "choice4": "Fluffy",
+    "answer": 1
+  },
+  {
+    "question": "The tears of which animal are the only known antidote to basilisk venom?",
+    "choice1": "Phoenix",
+    "choice2": "Billywig",
+    "choice3": "Hippogriff",
+    "choice4": "Boggart",
+    "answer": 1
+  },
+  {
+    "question": "Which chess piece did Harry play as while trying to get past McGonagall's giant chessboard?",
+    "choice1": "Bishop",
+    "choice2": "Castle",
+    "choice3": "Knight",
+    "choice4": "Pawn",
+    "answer": 1
+  },
+  {
+    "question": "Which element is associated with Hufflepuff?",
+    "choice1": "Fire",
+    "choice2": "Earth",
+    "choice3": "Air",
+    "choice4": "Water",
+    "answer": 2
+  },
+  {
+    "question": "What magical talent does Harry share with Voldemort?",
+    "choice1": "Being an Animagus",
+    "choice2": "Being a Parselmouth",
+    "choice3": "Being an Auror",
+    "choice4": "Being a Death Eater",
+    "answer": 2
+  },
+  {
+    "question": "In Harry Potter and the Sorcerer’s Stone, who gives Harry the invisibility cloak?",
+    "choice1": "Ron",
+    "choice2": "Dumbledore",
+    "choice3": "Snape",
+    "choice4": "No one; he just finds it",
+    "answer": 2
+  },
+  {
+    "question": "Which one of these characters is NOT friends with Harry Potter?",
+    "choice1": "Ron Weasley",
+    "choice2": "Draco Malfoy",
+    "choice3": "Neville Longbottom",
+    "choice4": "Hermione Granger",
+    "answer": 2
+  },
+  {
+    "question": "What is Rita Skeeter's Animagus form?",
+    "choice1": "Mouse",
+    "choice2": "Frog",
+    "choice3": "Beetle",
+    "choice4": "Fish",
+    "answer": 3
+  },
+  {
+    "question": "Wit beyond measure is man’s greatest treasure\" is the motto of which house?",
+    "choice1": "Gryffindor",
+    "choice2": "Hufflepuff",
+    "choice3": "Ravenclaw",
+    "choice4": "Slytherin",
+    "answer": 3
+  },
+  {
+    "question": "What was the name of the Black family’s house elf?",
+    "choice1": "Dobby",
+    "choice2": "Winky",
+    "choice3": "Kreacher",
+    "choice4": "Hokey",
+    "answer": 3
+  },
+  {
+    "question": "When unearthed, a mandrake will do what?",
+    "choice1": "Dance",
+    "choice2": "Burp",
+    "choice3": "Scream",
+    "choice4": "Laugh",
+    "answer": 3
+  },
+  {
+    "question": "What color was the sweater that Harry received from Mrs. Weasley for Christmas?",
+    "choice1": "Orange",
+    "choice2": "Maroon",
+    "choice3": "Blue",
+    "choice4": "Green",
+    "answer": 4
+  },
+  {
+    "question": "What position does Harry play on his Quidditch team?",
+    "choice1": "Chaser",
+    "choice2": "Keeper",
+    "choice3": "Bludger",
+    "choice4": "Seeker",
+    "answer": 4
+  },
+  {
+    "question": "Albus Dumbledore destroyed which Horcrux?",
+    "choice1": "Slytherin’s locket",
+    "choice2": "Nagini",
+    "choice3": "Hufflepuff’s cup",
+    "choice4": "Marvolo Gaunt’s ring",
+    "answer": 4
+  },
+  {
+    "question": "Who did Malfoy choose to be his second for his Midnight Duel against Harry?",
+    "choice1": "Goyle",
+    "choice2": "Ron",
+    "choice3": "Pansy",
+    "choice4": "Crabbe",
+    "answer": 4
+  }
+]

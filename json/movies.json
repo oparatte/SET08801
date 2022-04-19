@@ -1,0 +1,122 @@
+[
+  {
+    "question": "In the movie Good Will Hunting, which college does Skylar attend?",
+    "choice1": "Harvard",
+    "choice2": "Yale",
+    "choice3": "Columbia",
+    "choice4": "UCLA",
+    "answer": 1
+  },
+  {
+    "question": "“I see dead people” is a line from which horror film…",
+    "choice1": "The Sixth Sense",
+    "choice2": "The Grudge",
+    "choice3": "The Shining",
+    "choice4": "The Exorcist",
+    "answer": 1
+  },
+  {
+    "question": "The movie 10 Things I Hate About You was based on which play by Shakespeare:",
+    "choice1": "Taming of the Shrew",
+    "choice2": "Hamlet",
+    "choice3": "Romeo and Juliet",
+    "choice4": "A Midsummer Night’s Dream",
+    "answer": 1
+  },
+  {
+    "question": "What is the name of the fictional land where Frozen takes place?",
+    "choice1": "Arendelle",
+    "choice2": "Naples",
+    "choice3": "Florin",
+    "choice4": "Grimm",
+    "answer": 1
+  },
+  {
+    "question": "In Pirates of the Caribbean, what was Captain Jack Sparrow’s ship’s name?",
+    "choice1": "The Marauder",
+    "choice2": "The Black Pearl",
+    "choice3": "The Black Python",
+    "choice4": "The Slytherin",
+    "answer": 2
+  },
+  {
+    "question": "Han Solo is a character from which movie series:",
+    "choice1": "Harry Potter",
+    "choice2": "Star Wars",
+    "choice3": "Lord of the Rings",
+    "choice4": "Indiana Jones",
+    "answer": 2
+  },
+  {
+    "question": "Who directed Silence of the Lambs?",
+    "choice1": "Wes Anderson",
+    "choice2": "Jonathan Demme",
+    "choice3": "Oliver Stone",
+    "choice4": "Christopher Nolan",
+    "answer": 2
+  },
+  {
+    "question": "What year was the first Die Hard movie released?",
+    "choice1": 1986,
+    "choice2": 1988,
+    "choice3": 1990,
+    "choice4": 1991,
+    "answer": 2
+  },
+  {
+    "question": "What was the movie’s name that featured Matthew McConaughey, Michael Caine, Anne Hathaway, John Lithgow, and Matt Damon?",
+    "choice1": "Flight Plan",
+    "choice2": "The Martian",
+    "choice3": "Interstellar",
+    "choice4": "Ad Astra",
+    "answer": 3
+  },
+  {
+    "question": "In the movie The Princess Bride, what is Westley’s response to Buttercup’s requests?",
+    "choice1": "“Okay.”",
+    "choice2": "“Of course, I love you.”",
+    "choice3": "“As you wish.”",
+    "choice4": "“Anything for you.”",
+    "answer": 3
+  },
+  {
+    "question": "Where were The Lord of the Rings movies filmed?",
+    "choice1": "Ireland",
+    "choice2": "Iceland",
+    "choice3": "New Zealand",
+    "choice4": "Australia",
+    "answer": 3
+  },
+  {
+    "question": "According to Forrest Gump, “life is like…”",
+    "choice1": "A bag of lemons",
+    "choice2": "A handful of roses",
+    "choice3": "A lollipop",
+    "choice4": "A box of chocolates",
+    "answer": 4
+  },
+  {
+    "question": "Who played Wendy Torrance in The Shining?",
+    "choice1": "Linda Ronstadt",
+    "choice2": "Cher",
+    "choice3": "Sissy Spacek",
+    "choice4": "Shelley Duvall",
+    "answer": 4
+  },
+  {
+    "question": "In which city was Ferris Bueller’s Day Off filmed?",
+    "choice1": "Pittsburgh",
+    "choice2": "San Francisco",
+    "choice3": "New York",
+    "choice4": "Chicago",
+    "answer": 4
+  },
+  {
+    "question": "In which movie does Anne Hathaway play a poor, homeless woman?",
+    "choice1": "The Devil Wears Prada",
+    "choice2": "Ella Enchanted",
+    "choice3": "The Princess Diaries",
+    "choice4": "Les Miserables",
+    "answer": 4
+  }
+]

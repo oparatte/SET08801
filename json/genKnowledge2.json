@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Who wrote \"don't count your chickens before they are hatched\"?",
+    "choice1": "Aesop",
+    "choice2": "Shakespeare",
+    "choice3": "Ben  Franklin",
+    "choice4": "Chaucer",
+    "answer": 1
+  },
+  {
+    "question": "'Goodbye Farewell and Amen' was the final episode of which TV series?",
+    "choice1": "MASH",
+    "choice2": "Dallas",
+    "choice3": "Friends",
+    "choice4": "The Muppet Show",
+    "answer": 1
+  },
+  {
+    "question": "What is the name of the man servant in 'Around the world in 80 days'?",
+    "choice1": "Pas Partout",
+    "choice2": "Cato",
+    "choice3": "Giles",
+    "choice4": "Machu Picchu",
+    "answer": 1
+  },
+  {
+    "question": "The theory of relativity was developed by whom?",
+    "choice1": "Albert Einstein",
+    "choice2": "Nikola Tesla",
+    "choice3": "Marie Curie",
+    "choice4": "Stephen Hawking",
+    "answer": 1
+  },
+  {
+    "question": "Where did The Flowerpot Men want to go in 1967?",
+    "choice1": "New York",
+    "choice2": "San Francisco",
+    "choice3": "Woodstock",
+    "choice4": "Memphis",
+    "answer": 2
+  },
+  {
+    "question": "In which film do the words \"I love you\" save the planet earth?",
+    "choice1": "The Day After Tomorrow",
+    "choice2": "The 5th Element",
+    "choice3": "Mars Attacks",
+    "choice4": "Independence Day",
+    "answer": 2
+  },
+  {
+    "question": "How many earths would fit inside the sun?",
+    "choice1": "circa 100",
+    "choice2": "circa 1,000,000",
+    "choice3": "circa 10,000",
+    "choice4": "circa 100,000",
+    "answer": 2
+  },
+  {
+    "question": "A 'Miller' is a move in which sport?",
+    "choice1": "Ice Hockey",
+    "choice2": "Trampolining",
+    "choice3": "Diving",
+    "choice4": "Chess",
+    "answer": 2
+  },
+  {
+    "question": "Which kind of animal did Florence Nightingale often carry around in her pocket?",
+    "choice1": "Kitten",
+    "choice2": "Puppy",
+    "choice3": "Owl",
+    "choice4": "Snake",
+    "answer": 3
+  },
+  {
+    "question": "In which book is there an inn called Admiral Benbow?",
+    "choice1": "Lord of the Rings",
+    "choice2": "Gulliver?s Travels",
+    "choice3": "Treasure Island",
+    "choice4": "Peter Pan",
+    "answer": 3
+  },
+  {
+    "question": "What does a nidoligist study?",
+    "choice1": "Waves",
+    "choice2": "Clouds",
+    "choice3": "Bird Nests",
+    "choice4": "Caves",
+    "answer": 3
+  },
+  {
+    "question": "Which NHL hockey team has won the most Stanley Cups?",
+    "choice1": "Toronto Maple Leafs",
+    "choice2": "Boston Bruins",
+    "choice3": "Montreal Canadiens",
+    "choice4": "New York Rangers",
+    "answer": 3
+  },
+  {
+    "question": "Fe is the chemical symbol for",
+    "choice1": "Zinc",
+    "choice2": "Hydrogen",
+    "choice3": "Fluorine",
+    "choice4": "Iron",
+    "answer": 4
+  },
+  {
+    "question": "Which country consumes the most chocolate?",
+    "choice1": "Spain",
+    "choice2": "Germany",
+    "choice3": "North America",
+    "choice4": "Switzerland",
+    "answer": 4
+  },
+  {
+    "question": "What was the name of the Greek mythological woman who had snakes for hair?",
+    "choice1": "Pandora",
+    "choice2": "Helen",
+    "choice3": "Cassiopeia",
+    "choice4": "Medusa",
+    "answer": 4
+  }
+]

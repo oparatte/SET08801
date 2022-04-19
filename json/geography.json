@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Formentera is part of which group of Spanish islands?",
+    "choice1": "Canary Islands",
+    "choice2": "Cies Islands",
+    "choice3": "Medes Islands",
+    "choice4": "Balearic Islands",
+    "answer": 4
+  },
+  {
+    "question": "In which U.S. national park is the Old Faithful geyser found?",
+    "choice1": "Yellowstone",
+    "choice2": "Death Valley",
+    "choice3": "Yosemite",
+    "choice4": "Carlsbad Caverns",
+    "answer": 4
+  },
+  {
+    "question": "Casablanca is the largest city in which African country?",
+    "choice1": "Egypt",
+    "choice2": "Morocco",
+    "choice3": "Tunisia",
+    "choice4": "Algeria",
+    "answer": 2
+  },
+  {
+    "question": "What is the largest freshwater lake in the world by surface area?",
+    "choice1": "Lake Superior",
+    "choice2": "Lake Victoria",
+    "choice3": "Lake Tanganyika",
+    "choice4": "Lake Baikal",
+    "answer": 1
+  },
+  {
+    "question": "Toronto is the capital city of which Canadian province?",
+    "choice1": "Alberta",
+    "choice2": "Quebec",
+    "choice3": "British Columbia",
+    "choice4": "Ontario",
+    "answer": 4
+  },
+  {
+    "question": "The architect I.M. Pei designed a glass and steel pyramid for which capital city?",
+    "choice1": "London",
+    "choice2": "Paris",
+    "choice3": "Beijing",
+    "choice4": "Tokyo",
+    "answer": 2
+  },
+  {
+    "question": "Which Spanish city is famous for its ‘running of the bull’ during the annual San Fermin festival?",
+    "choice1": "Barcelona",
+    "choice2": "Seville",
+    "choice3": "Pamplona",
+    "choice4": "Tarragona",
+    "answer": 3
+  },
+  {
+    "question": "What is the national flower of Scotland?",
+    "choice1": "Heather",
+    "choice2": "Gorse",
+    "choice3": "Bluebell",
+    "choice4": "Thistle",
+    "answer": 4
+  },
+  {
+    "question": "Manitoulin Island is the world’s largest island in a lake. In which of the Great Lakes of North America is it found?",
+    "choice1": "Lake Huron",
+    "choice2": "Lake Michigan",
+    "choice3": "Lake Erie",
+    "choice4": "Lake Ontario",
+    "answer": 1
+  },
+  {
+    "question": "What is the capital city of Ukraine?",
+    "choice1": "Kiev",
+    "choice2": "Vilnius",
+    "choice3": "Minsk",
+    "choice4": "Pristina",
+    "answer": 1
+  },
+  {
+    "question": "Name the highest mountain in Africa?",
+    "choice1": "Mount Kenya",
+    "choice2": "Mount Stanley",
+    "choice3": "Mount Kilimanjaro",
+    "choice4": "Atlas Mountains",
+    "answer": 3
+  },
+  {
+    "question": "Which river is known to be the longest on earth?",
+    "choice1": "Niger River",
+    "choice2": "Lena River",
+    "choice3": "Congo River",
+    "choice4": "Nile River",
+    "answer": 4
+  },
+  {
+    "question": "Which is the tallest waterfall in USA?",
+    "choice1": "Victoria Fall",
+    "choice2": "Yosemite Falls",
+    "choice3": "Niagara Falls",
+    "choice4": "Jog Fall",
+    "answer": 2
+  },
+  {
+    "question": "Which ocean is the largest?",
+    "choice1": "Indian",
+    "choice2": "Pacific",
+    "choice3": "Atlantic",
+    "choice4": "Arctic",
+    "answer": 2
+  },
+  {
+    "question": "In which city would you find the Fisherman’s Bastion?",
+    "choice1": "Rome",
+    "choice2": "Budapest",
+    "choice3": "Barcelona",
+    "choice4": "Athens",
+    "answer": 2
+  }
+]

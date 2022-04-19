@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Servers are computers that provide resources to other computers connected to a",
+    "choice1": "Client",
+    "choice2": "Mainframe",
+    "choice3": "Supercomputer",
+    "choice4": "Network",
+    "answer": 4
+  },
+  {
+    "question": "A program that is used to view websites is called a",
+    "choice1": "Browser",
+    "choice2": "Web viewer",
+    "choice3": "Spreadsheet",
+    "choice4": "Word processor",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT a type of broadband internet connection?",
+    "choice1": "Satellite",
+    "choice2": "DSL",
+    "choice3": "Dial up",
+    "choice4": "Cable",
+    "answer": 3
+  },
+  {
+    "question": "What is the term for unsolicited Email?",
+    "choice1": "Spam",
+    "choice2": "Backbone",
+    "choice3": "Usenet",
+    "choice4": "News group",
+    "answer": 1
+  },
+  {
+    "question": "Rules for exchanging data between computers are called",
+    "choice1": "Procedures",
+    "choice2": "Protocols",
+    "choice3": "Hyperlinks",
+    "choice4": "Programs",
+    "answer": 2
+  },
+  {
+    "question": "____ is the basic communication language or protocol of the internet",
+    "choice1": "TCP/IP",
+    "choice2": "TCDP/IEP",
+    "choice3": "TCMP/IKP",
+    "choice4": "TCTP/ITP",
+    "answer": 1
+  },
+  {
+    "question": "Documents converted to ____ can be published to the web",
+    "choice1": "Doc file",
+    "choice2": "machine language",
+    "choice3": "http",
+    "choice4": "HTML",
+    "answer": 4
+  },
+  {
+    "question": "Which of the following is not a means of personal communication on the internet?",
+    "choice1": "E-mail",
+    "choice2": "Instanotes",
+    "choice3": "Instant messaging",
+    "choice4": "Chat",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following cannot be a part of an E-mail address?",
+    "choice1": "Underscore (_)",
+    "choice2": "Space ( )",
+    "choice3": "At sign (@)",
+    "choice4": "Period (-)",
+    "answer": 2
+  },
+  {
+    "question": "Which term identifies a specific computer on the web and the main page of the entire site?",
+    "choice1": "WWW",
+    "choice2": "Link",
+    "choice3": "SQL",
+    "choice4": "URL",
+    "answer": 4
+  },
+  {
+    "question": "The two basic parts of URLs are",
+    "choice1": "TCP and FTP",
+    "choice2": "The protocol and the domain name",
+    "choice3": "TCP/IP and ISP",
+    "choice4": "Destination and device",
+    "answer": 2
+  },
+  {
+    "question": "Generally to send data from a local computer to a remote computer/internet is called?",
+    "choice1": "Download",
+    "choice2": "Upload",
+    "choice3": "Editing",
+    "choice4": "E-mail",
+    "answer": 2
+  },
+  {
+    "question": "The process of communicating with a file from a terminal is",
+    "choice1": "Heuristic",
+    "choice2": "Interactive",
+    "choice3": "Interrogation",
+    "choice4": "None of the above",
+    "answer": 3
+  },
+  {
+    "question": "Portion of server memory set aside to temporary hold data packets form workstations is called",
+    "choice1": "Dirty packet buffer",
+    "choice2": "Packet cache buffer",
+    "choice3": "Packet block",
+    "choice4": "Packet receive buffer",
+    "answer": 4
+  },
+  {
+    "question": "The most common method for gaining access to the internet is through a",
+    "choice1": "Point-to-point computer",
+    "choice2": "Virtual provider or computer",
+    "choice3": "Provider or host computer",
+    "choice4": "Dumb terminal",
+    "answer": 3
+  }
+]

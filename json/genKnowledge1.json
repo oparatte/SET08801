@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Who was the ancient Greek goddess of love and beauty?",
+    "choice1": "Aphrodite",
+    "choice2": "Calliope",
+    "choice3": "Athena",
+    "choice4": "Calypso",
+    "answer": 1
+  },
+  {
+    "question": "Which alcoholic drink is made from the leaves of the agave plant and gets its name from an area around a Mexican city?",
+    "choice1": "Tequila",
+    "choice2": "Singani",
+    "choice3": "Chicha",
+    "choice4": "Kasiri",
+    "answer": 1
+  },
+  {
+    "question": "What is the term used to define the production of light by living beings?",
+    "choice1": "Bio-luminescence",
+    "choice2": "Bio-lighting",
+    "choice3": "Bio-fluorescence",
+    "choice4": "Bio-emitting",
+    "answer": 1
+  },
+  {
+    "question": "Holly Golightly is a character in which film?",
+    "choice1": "Breakfast at Tiffanys",
+    "choice2": "Pretty In Pink",
+    "choice3": "Funny Face",
+    "choice4": "Singing In The Rain",
+    "answer": 1
+  },
+  {
+    "question": "How many elements are there on the periodic table?",
+    "choice1": 112,
+    "choice2": 118,
+    "choice3": 120,
+    "choice4": 143,
+    "answer": 2
+  },
+  {
+    "question": "The wind velocity is measured by which instrument?",
+    "choice1": "Barometer",
+    "choice2": "Anemometer",
+    "choice3": "Hygrometer",
+    "choice4": "Velocity meter",
+    "answer": 2
+  },
+  {
+    "question": "Who was the person who is the first to reach space?",
+    "choice1": "Valentina Tereshkova",
+    "choice2": "Yuri Gagarin",
+    "choice3": "Alan Shepard",
+    "choice4": "Rakesh Sharma",
+    "answer": 2
+  },
+  {
+    "question": "The world’s tallest building is?",
+    "choice1": "Shanghai Tower",
+    "choice2": "Burj Khalifa",
+    "choice3": "Makkah Royal Clock Tower",
+    "choice4": "One World Trade Center",
+    "answer": 2
+  },
+  {
+    "question": "How many bones are there in the human body?",
+    "choice1": 201,
+    "choice2": 205,
+    "choice3": 206,
+    "choice4": 209,
+    "answer": 3
+  },
+  {
+    "question": "What does the Q in IQ stand for?",
+    "choice1": "Quantity",
+    "choice2": "Quorum",
+    "choice3": "Quotient",
+    "choice4": "Quality",
+    "answer": 3
+  },
+  {
+    "question": "How many hearts does an octopus have?",
+    "choice1": 1,
+    "choice2": 2,
+    "choice3": 3,
+    "choice4": 4,
+    "answer": 3
+  },
+  {
+    "question": "Bronze is mainly an alloy of tin and which other metal?",
+    "choice1": "Brass",
+    "choice2": "Lead",
+    "choice3": "Iron",
+    "choice4": "Copper",
+    "answer": 4
+  },
+  {
+    "question": "Who is known as the father of Modern Medicine?",
+    "choice1": "Erastosthenes",
+    "choice2": "Euclid",
+    "choice3": "Pythagoras",
+    "choice4": "Hippocrates",
+    "answer": 4
+  },
+  {
+    "question": "Which planet in our solar system is the largest?",
+    "choice1": "Earth",
+    "choice2": "Saturn",
+    "choice3": "Neptune",
+    "choice4": "Jupiter",
+    "answer": 4
+  },
+  {
+    "question": "What is the name of the second American astronaut to step foot on the moon?",
+    "choice1": "James Irwin",
+    "choice2": "Neil Armstrong",
+    "choice3": "Alan Bean",
+    "choice4": "Buzz Aldrin",
+    "answer": 4
+  }
+]

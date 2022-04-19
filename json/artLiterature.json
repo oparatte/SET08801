@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What nationality was the artist Rembrandt?",
+    "choice1": "German",
+    "choice2": "Belgian",
+    "choice3": "Swiss",
+    "choice4": "Dutch",
+    "answer": 4
+  },
+  {
+    "question": "Who created and wrote about the fictional continent Middle Earth?",
+    "choice1": "Terry Pratchett",
+    "choice2": "J. R. R. Tolkien",
+    "choice3": "George R. R. Martin",
+    "choice4": "Neil Gaiman",
+    "answer": 2
+  },
+  {
+    "question": "How was American writer Samuel Langhorne Clemens better known?",
+    "choice1": "Mark Twain",
+    "choice2": "Walt Whitman",
+    "choice3": "Joseph Heller",
+    "choice4": "John Steinbeck",
+    "answer": 1
+  },
+  {
+    "question": "Which artist’s works include “The Persistence of Memory”, “The Temptation of St. Anthony”, and “Lobster Telephone”?",
+    "choice1": "Picasso",
+    "choice2": "Salvador Dali",
+    "choice3": "Jackson Pollock",
+    "choice4": "Rene Magritte",
+    "answer": 2
+  },
+  {
+    "question": "In which novel are Ralph, Jack and Peterkin three castaways?",
+    "choice1": "Treasure Island",
+    "choice2": "Lord of the Flies",
+    "choice3": "The Coral Island",
+    "choice4": "Robinson Crusoe",
+    "answer": 3
+  },
+  {
+    "question": "Pablo Picasso and George Braques were pioneers of which early nineteenth century art movement noted for it’s concentration on geometrical figures?",
+    "choice1": "Impressionism",
+    "choice2": "Realism",
+    "choice3": "Cubism",
+    "choice4": "Abstract Expressionism",
+    "answer": 3
+  },
+  {
+    "question": "Which Italian artist painted the Sistine Chapel ceiling?",
+    "choice1": "Botticelli",
+    "choice2": "Michelangelo",
+    "choice3": "Leonardo da Vinci",
+    "choice4": "Caravaggio",
+    "answer": 2
+  },
+  {
+    "question": "Who wrote the book ‘The Wealth of Nations’?",
+    "choice1": "Robinson",
+    "choice2": "Carl Mane",
+    "choice3": "Malthus",
+    "choice4": "Adam Smith",
+    "answer": 4
+  },
+  {
+    "question": "The famous painting ‘Sun Flower’ was done by",
+    "choice1": "Van Gogh",
+    "choice2": "Leonardo da Vinci",
+    "choice3": "Pablo Picasso",
+    "choice4": "Michael Angelo",
+    "answer": 1
+  },
+  {
+    "question": "The ‘Last Supper’ a famous renaissance painting was a master piece of",
+    "choice1": "Leonardo da Vinci",
+    "choice2": "Titian",
+    "choice3": "Michael Angelo",
+    "choice4": "Raphael",
+    "answer": 1
+  },
+  {
+    "question": "What is Shakespeare’s shortest tragedy?",
+    "choice1": "Macbeth",
+    "choice2": "Hamlet",
+    "choice3": "Romeo & Juliet",
+    "choice4": "Othello",
+    "answer": 1
+  },
+  {
+    "question": "Who wrote The Scarlett Letter?",
+    "choice1": "Shakespeare",
+    "choice2": "Stephen King",
+    "choice3": "Nathanial Hawthorne",
+    "choice4": "Ernest Hemingway",
+    "answer": 3
+  },
+  {
+    "question": "Which poet wrote the poem “The Raven”?",
+    "choice1": "Robert Frost",
+    "choice2": "Edgar Allen Poe",
+    "choice3": "Walt Whitman",
+    "choice4": "Sylvia Plath",
+    "answer": 2
+  },
+  {
+    "question": "In 2016, which musician won the Nobel Peace Prize for Literature?",
+    "choice1": "Lenny Kravitz",
+    "choice2": "Eric Clapton",
+    "choice3": "Bob Dylan",
+    "choice4": "Elton John",
+    "answer": 3
+  },
+  {
+    "question": "In Ray Bradbury’s novel Fahrenheit 451, what are they burning?",
+    "choice1": "Clothes",
+    "choice2": "Houses",
+    "choice3": "Money",
+    "choice4": "Books",
+    "answer": 4
+  }
+]

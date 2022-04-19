@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Which of these sports equipment manufacturers is not normally associated with golf?",
+    "choice1": "Titleist",
+    "choice2": "Ping",
+    "choice3": "Dunlop",
+    "choice4": "Kookaburra",
+    "answer": 4
+  },
+  {
+    "question": "How many times has American golfer Tom Watson won the British Open Golf Championship?",
+    "choice1": 2,
+    "choice2": 3,
+    "choice3": 4,
+    "choice4": 5,
+    "answer": 4
+  },
+  {
+    "question": "At which age can a player join the Seniors' Golf Tour?",
+    "choice1": "40 years",
+    "choice2": "50 years",
+    "choice3": "65 years",
+    "choice4": "70 years",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following golf clubs has the most loft?",
+    "choice1": "Sand Wedge",
+    "choice2": "1 iron",
+    "choice3": "9 iron",
+    "choice4": "Driver",
+    "answer": 1
+  },
+  {
+    "question": "What is the nationality of the golfer Paul Azinger?",
+    "choice1": "Spanish",
+    "choice2": "British",
+    "choice3": "American",
+    "choice4": "Italian",
+    "answer": 3
+  },
+  {
+    "question": "How many rounds are there in golf's US Open?",
+    "choice1": 1,
+    "choice2": 2,
+    "choice3": 3,
+    "choice4": 4,
+    "answer": 4
+  },
+  {
+    "question": "Which of the following golfers has won four US Open golf titles?",
+    "choice1": "Willie Anderson",
+    "choice2": "Tom Watson",
+    "choice3": "Harry Vardon",
+    "choice4": "Fred Couples",
+    "answer": 1
+  },
+  {
+    "question": "What was the first name of the US golfer Palmer?",
+    "choice1": "George",
+    "choice2": "Arnold",
+    "choice3": "John",
+    "choice4": "Charles",
+    "answer": 2
+  },
+  {
+    "question": "Who, at the age of 18, finished fourth in the 1998 Golf Open?",
+    "choice1": "Tiger Woods",
+    "choice2": "Lee Westwood",
+    "choice3": "Justin Rose",
+    "choice4": "Mark Pugash",
+    "answer": 3
+  },
+  {
+    "question": "One of the most successful golfers of all time, what is the real middle name of Tiger Woods?",
+    "choice1": "Mont",
+    "choice2": "Tont",
+    "choice3": "Lont",
+    "choice4": "Font",
+    "answer": 2
+  },
+  {
+    "question": "If you messed up your first tee shot in a fun round of golf, you might be allowed a what?",
+    "choice1": "O'Reilly",
+    "choice2": "Mulligan",
+    "choice3": "O'Malley",
+    "choice4": "Finnegan",
+    "answer": 1
+  },
+  {
+    "question": "Who was the first US Women's Open Golf champion?",
+    "choice1": "Charlotte Tennyson",
+    "choice2": "Tiger Lilly Woods",
+    "choice3": "Patty Berg",
+    "choice4": "Laura Davis",
+    "answer": 3
+  },
+  {
+    "question": "What do the letters R and A stand for in the name of the world's oldest golf club?",
+    "choice1": "Rock and Attitude",
+    "choice2": "Regular and Artful",
+    "choice3": "Royal and Ancient",
+    "choice4": "Right and August",
+    "answer": 3
+  },
+  {
+    "question": "What is presented to the winner of The Masters golf tournament?",
+    "choice1": "Green jacket",
+    "choice2": "Tartan trousers",
+    "choice3": "Sequined glove",
+    "choice4": "Yellow jersey",
+    "answer": 1
+  },
+  {
+    "question": "The Belfry is a golf course on the outskirts of which major city?",
+    "choice1": "Manchester",
+    "choice2": "Newcastle",
+    "choice3": "Sheffield",
+    "choice4": "Birmingham",
+    "answer": 4
+  }
+]

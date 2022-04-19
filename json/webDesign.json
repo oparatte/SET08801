@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Which language is used for creating Web Pages?",
+    "choice1": "PASCAL",
+    "choice2": "C",
+    "choice3": "HTML",
+    "choice4": "BASIC",
+    "answer": 3
+  },
+  {
+    "question": "The communication protocol used by the Internet to transfer hypertext documents is",
+    "choice1": "Hyper Text Internet Protocol",
+    "choice2": "Hyper Text Transfer Protocol",
+    "choice3": "Internet protocol",
+    "choice4": "File Transfer Protocol",
+    "answer": 2
+  },
+  {
+    "question": "The entire web document is contained within ?",
+    "choice1": "Comments",
+    "choice2": "Tags",
+    "choice3": "Web page",
+    "choice4": "HTML element",
+    "answer": 4
+  },
+  {
+    "question": "HTML document should begin with the ?",
+    "choice1": "<HEAD> tag",
+    "choice2": "<TITLE> tag",
+    "choice3": "<BODY> tag",
+    "choice4": "<HTML> tag",
+    "answer": 4
+  },
+  {
+    "question": "The HTML and HTTP standard are defined by ?",
+    "choice1": "Web client",
+    "choice2": "Internet association",
+    "choice3": "WWW consortium",
+    "choice4": "WWW",
+    "answer": 3
+  },
+  {
+    "question": "GIF is the abbreviation of ?",
+    "choice1": "Graphics Interchange Format",
+    "choice2": "Graphics Instruction Format",
+    "choice3": "Graphics Item Format",
+    "choice4": "Graphics Information Format",
+    "answer": 1
+  },
+  {
+    "question": "The <Font> tag is similar to ?",
+    "choice1": "<BIG>tag",
+    "choice2": "<SMALL>tag",
+    "choice3": "<MARQUEE>tag",
+    "choice4": "<BIG>and<Small> tags",
+    "answer": 4
+  },
+  {
+    "question": "What is the name of the location address of the hypertext documents?",
+    "choice1": "Uniform Resource Locator",
+    "choice2": "Web server",
+    "choice3": "File",
+    "choice4": "Web address",
+    "answer": 1
+  },
+  {
+    "question": "The ____ passes the information given by the user to a specified program",
+    "choice1": "User",
+    "choice2": "Programmer",
+    "choice3": "Web server",
+    "choice4": "Browser",
+    "answer": 3
+  },
+  {
+    "question": "____ is used to store the data within the documents on the server",
+    "choice1": "XML",
+    "choice2": "HTML",
+    "choice3": "DHTML",
+    "choice4": "CGI",
+    "answer": 1
+  },
+  {
+    "question": "Web page editors works on a ____ principle",
+    "choice1": "WWW",
+    "choice2": "HTML",
+    "choice3": "WYSIWYG",
+    "choice4": "WYGWYSI",
+    "answer": 3
+  },
+  {
+    "question": "Which program is used by web clients to view the web pages?",
+    "choice1": "Web browser",
+    "choice2": "Protocol",
+    "choice3": "Web server",
+    "choice4": "Search Engine",
+    "answer": 1
+  },
+  {
+    "question": "Which tag is used to display text in title bar of a web document?",
+    "choice1": "Body tag",
+    "choice2": "Title tag",
+    "choice3": "Meta tag",
+    "choice4": "Comment tag",
+    "answer": 2
+  },
+  {
+    "question": "What are shared on the Internet and are called as Web pages?",
+    "choice1": "Programs",
+    "choice2": "Cables",
+    "choice3": "Hypertext documents",
+    "choice4": "Content",
+    "answer": 3
+  },
+  {
+    "question": "Transferring your HTML code from one machine to server is known as",
+    "choice1": "Hosting",
+    "choice2": "Indexing",
+    "choice3": "Serving",
+    "choice4": "Sorting",
+    "answer": 1
+  },
+  {
+    "question": "The ____ attribute is used to identify the values of variables",
+    "choice1": "text",
+    "choice2": "http-equiv",
+    "choice3": "content",
+    "choice4": "name",
+    "answer": 3
+  },
+  {
+    "question": "The tag used to add images to the HTML document is ?",
+    "choice1": "<FONT>",
+    "choice2": "<HR>",
+    "choice3": "<HI>",
+    "choice4": "<IMG>",
+    "answer": 4
+  },
+  {
+    "question": "____ is a collection of controls in HTML",
+    "choice1": "Form",
+    "choice2": "Field",
+    "choice3": "Table",
+    "choice4": "Frame",
+    "answer": 1
+  },
+  {
+    "question": "Which are used with a tag to modify its function?",
+    "choice1": "Files",
+    "choice2": "Attributes",
+    "choice3": "Functions",
+    "choice4": "Documents",
+    "answer": 2
+  },
+  {
+    "question": "Which is the formal description of message formats and rules to be followed by computers?",
+    "choice1": "Standards",
+    "choice2": "Protocol",
+    "choice3": "Syntax",
+    "choice4": "Language",
+    "answer": 2
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "question": "How many players are there on a polo team?",
+    "choice1": 3,
+    "choice2": 4,
+    "choice3": 5,
+    "choice4": 6,
+    "answer": 4
+  },
+  {
+    "question": "Visors, gloves and finger spikes are worn in which Olympic sport?",
+    "choice1": "Alpine Skiing",
+    "choice2": "Bobsleigh",
+    "choice3": "Luge",
+    "choice4": "Ski jump",
+    "answer": 3
+  },
+  {
+    "question": "How long does a game of Rugby League football last?",
+    "choice1": "40 mins",
+    "choice2": "60 mins",
+    "choice3": "80 mins",
+    "choice4": "100 mins",
+    "answer": 3
+  },
+  {
+    "question": "The Derby Stakes, a major race in British horseracing, is ran at which track?",
+    "choice1": "Newmarket",
+    "choice2": "Aintree",
+    "choice3": "Epsom",
+    "choice4": "Ascot",
+    "answer": 3
+  },
+  {
+    "question": "The Boston Red Sox compete in what professional sport?",
+    "choice1": "Baseball",
+    "choice2": "American Football",
+    "choice3": "Ice Hockey",
+    "choice4": "Basketball",
+    "answer": 1
+  },
+  {
+    "question": "Which of these events do men NOT compete in?",
+    "choice1": "Floor",
+    "choice2": "Beam",
+    "choice3": "Vault",
+    "choice4": "Rings",
+    "answer": 2
+  },
+  {
+    "question": "Who is the only man to have played in both a Super Bowl and a World Series?",
+    "choice1": "Deion Sanders",
+    "choice2": "Bo Jackson",
+    "choice3": "Jim Thorpe",
+    "choice4": "Babe Didrikson",
+    "answer": 1
+  },
+  {
+    "question": "What is a perfect score in diving?",
+    "choice1": 60,
+    "choice2": 25,
+    "choice3": 10,
+    "choice4": 50,
+    "answer": 3
+  },
+  {
+    "question": "What sport involves the terms sculler, coxswain and sweep?",
+    "choice1": "Rowing",
+    "choice2": "Curling",
+    "choice3": "Billiards",
+    "choice4": "Field hockey",
+    "answer": 1
+  },
+  {
+    "question": "According to Mark Twain, what game is \"a good walk spoiled\"?",
+    "choice1": "Big-game hunting",
+    "choice2": "Golf",
+    "choice3": "Jogging",
+    "choice4": "Billiards",
+    "answer": 2
+  },
+  {
+    "question": "Where was the first winter Olympic Games held?",
+    "choice1": "Sweden",
+    "choice2": "Norway",
+    "choice3": "Soviet Union",
+    "choice4": "France",
+    "answer": 4
+  },
+  {
+    "question": "Which two sports make up the Olympic biathlon?",
+    "choice1": "Skiing and archery",
+    "choice2": "Skiing and shooting",
+    "choice3": "Cycling and shooting",
+    "choice4": "Cycling and swimming",
+    "answer": 2
+  },
+  {
+    "question": "Where is the infamous Green Wall?",
+    "choice1": "Fenway Park",
+    "choice2": "Turner Field",
+    "choice3": "Busch Stadium",
+    "choice4": "Wrigley Field",
+    "answer": 1
+  },
+  {
+    "question": "In the game of billiards, what is the name used for the white billiard ball?",
+    "choice1": "Point Ball",
+    "choice2": "White Ball",
+    "choice3": "Main Ball",
+    "choice4": "Cue Ball",
+    "answer": 4
+  },
+  {
+    "question": "How many hurdles are there in a standard 100m race",
+    "choice1": 5,
+    "choice2": 10,
+    "choice3": 15,
+    "choice4": 25,
+    "answer": 2
+  }
+]

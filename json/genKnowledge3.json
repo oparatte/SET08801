@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is the more usual name for Roentgen Rays?",
+    "choice1": "X Rays",
+    "choice2": "Gamma Rays",
+    "choice3": "Ultraviolet Rays",
+    "choice4": "Magnetic Resonance",
+    "answer": 1
+  },
+  {
+    "question": "Fredrick Sanger invented which life saver?",
+    "choice1": "Insulin",
+    "choice2": "Safety Pin",
+    "choice3": "Inflatable Life Raft",
+    "choice4": "Aspirin",
+    "answer": 1
+  },
+  {
+    "question": "Herodotus is known as the father of what?",
+    "choice1": "History",
+    "choice2": "Medicine",
+    "choice3": "Theatre",
+    "choice4": "Music",
+    "answer": 1
+  },
+  {
+    "question": "According to legend, kissing which stone in Ireland gives you the gift of the gab?",
+    "choice1": "The Blarney Stone",
+    "choice2": "The Baloney Stone",
+    "choice3": "The Rosetta Stone",
+    "choice4": "The Stone of Destiny",
+    "answer": 1
+  },
+  {
+    "question": "Festfolk was the original name for which group?",
+    "choice1": "The Beach Boys",
+    "choice2": "ABBA",
+    "choice3": "Motorhead",
+    "choice4": "Simon and Garfunkel",
+    "answer": 2
+  },
+  {
+    "question": "The title of which Pink Floyd album is also a chapter in 'The Wind In The Willows'?",
+    "choice1": "Wish you were here",
+    "choice2": "The piper at the gates of dawn",
+    "choice3": "Meddle",
+    "choice4": "Animals",
+    "answer": 2
+  },
+  {
+    "question": "Which vegetable gives Popeye his strength?",
+    "choice1": "Broccoli",
+    "choice2": "Spinach",
+    "choice3": "Asparagus",
+    "choice4": "Lentils",
+    "answer": 2
+  },
+  {
+    "question": "In which U.S. city is NASA’s Mission Control Center located?",
+    "choice1": "Huntsville, Alabama",
+    "choice2": "Houston, Texas",
+    "choice3": "Hampton, Virginia",
+    "choice4": "Cape Canaveral, Florida",
+    "answer": 2
+  },
+  {
+    "question": "What is the name of Superman’s home planet?",
+    "choice1": "Argon",
+    "choice2": "Rann",
+    "choice3": "Krypton",
+    "choice4": "Qward",
+    "answer": 3
+  },
+  {
+    "question": "What is the Latin word for “beyond”, often used as a prefix to signify an extreme?",
+    "choice1": "Extra",
+    "choice2": "Super",
+    "choice3": "Ultra",
+    "choice4": "Mega",
+    "answer": 3
+  },
+  {
+    "question": "What is the largest internal organ in the human body?",
+    "choice1": "Brain",
+    "choice2": "Heart",
+    "choice3": "Liver",
+    "choice4": "Lungs",
+    "answer": 3
+  },
+  {
+    "question": "How many days does it take for mercury to orbit the sun is?",
+    "choice1": "135 days",
+    "choice2": "99 days",
+    "choice3": "88 days",
+    "choice4": "265 days",
+    "answer": 3
+  },
+  {
+    "question": "Which actor appeared in the Cranberries music video Ridiculous Thought?",
+    "choice1": "Bruce Willis",
+    "choice2": "Donald Sutherland",
+    "choice3": "George Clooney",
+    "choice4": "Elijah Wood",
+    "answer": 4
+  },
+  {
+    "question": "Hypermetropic people are what?",
+    "choice1": "obese",
+    "choice2": "underfed",
+    "choice3": "moody",
+    "choice4": "far sighted",
+    "answer": 4
+  },
+  {
+    "question": "Anemophobia is the fear of what?",
+    "choice1": "Spiders",
+    "choice2": "The Dark",
+    "choice3": "Fire",
+    "choice4": "Wind",
+    "answer": 4
+  }
+]

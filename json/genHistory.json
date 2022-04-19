@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What was the name of the ship in which Captain James Cook made his first expedition to the Pacific Ocean?",
+    "choice1": "Beagle",
+    "choice2": "Endeavour",
+    "choice3": "Bounty",
+    "choice4": "Endurance",
+    "answer": 2
+  },
+  {
+    "question": "Which naval battle between the British fleet and the combined French and Spanish fleets took place on the 21st October, 1805?",
+    "choice1": "Battle of Waterloo",
+    "choice2": "Battle of Trafalgar",
+    "choice3": "Battle of Jutland",
+    "choice4": "Battle of the Nile",
+    "answer": 2
+  },
+  {
+    "question": "Napoloen Bonaparte escaped from his exile on which Mediterranean island in February, 1815?",
+    "choice1": "Corsica",
+    "choice2": "Capri",
+    "choice3": "Sicily",
+    "choice4": "Elba",
+    "answer": 4
+  },
+  {
+    "question": "Operation Overlord took place on the beaches of which region of France in June, 1944?",
+    "choice1": "Provence",
+    "choice2": "Aquitaine",
+    "choice3": "Burgundy",
+    "choice4": "Normandy",
+    "answer": 4
+  },
+  {
+    "question": "Which U.S. president said, “government of the people, by the people, for the people” in his Gettysburg Address?",
+    "choice1": "Abraham Lincoln",
+    "choice2": "George Washington",
+    "choice3": "Thomas Jefferson",
+    "choice4": "James Buchanan",
+    "answer": 1
+  },
+  {
+    "question": "Who was Roman emperor at the time of Christ’s crucifixion?",
+    "choice1": "Nero",
+    "choice2": "Pontius Pilate",
+    "choice3": "Tiberius",
+    "choice4": "Julius Caesar",
+    "answer": 3
+  },
+  {
+    "question": "In what year did the Bay of Pigs invasion take place?",
+    "choice1": 1959,
+    "choice2": 1961,
+    "choice3": 1963,
+    "choice4": 1965,
+    "answer": 2
+  },
+  {
+    "question": "What was the name of the first spacecraft to land on the moon?",
+    "choice1": "Spider",
+    "choice2": "Eagle",
+    "choice3": "Intrepid",
+    "choice4": "Falcon",
+    "answer": 2
+  },
+  {
+    "question": "Where was the second atomic bomb dropped in World War 2?",
+    "choice1": "Nagasaki",
+    "choice2": "Hiroshima",
+    "choice3": "Osaka",
+    "choice4": "Yokohama",
+    "answer": 1
+  },
+  {
+    "question": "The Roman Emperor who built the massive wall across Northern Britain is?",
+    "choice1": "Marcus Aurelius",
+    "choice2": "Hadrian",
+    "choice3": "Nero",
+    "choice4": "Augustus",
+    "answer": 2
+  },
+  {
+    "question": "Which of the following was NOT a member of the ‘Holy Alliance’?",
+    "choice1": "Russia",
+    "choice2": "Austria",
+    "choice3": "Prussia",
+    "choice4": "Poland",
+    "answer": 4
+  },
+  {
+    "question": "When was the ancient Olympic Games first held?",
+    "choice1": "776 BC",
+    "choice2": "68 AD",
+    "choice3": "428 BC",
+    "choice4": "124 BC",
+    "answer": 1
+  },
+  {
+    "question": "Which of the following kings is associated with the ‘Magna Carta’?",
+    "choice1": "Henry III",
+    "choice2": "Queen Elizabeth I",
+    "choice3": "Henry I",
+    "choice4": "King John",
+    "answer": 4
+  },
+  {
+    "question": "Which is considered as the oldest civilization of the world?",
+    "choice1": "Mesopotamia Civilization",
+    "choice2": "Egyptian Civilization",
+    "choice3": "Harappan Civilization",
+    "choice4": "Greek Civilization",
+    "answer": 1
+  },
+  {
+    "question": "The discovery of sea-route from Europe to India was made by",
+    "choice1": "Columbus",
+    "choice2": "Macro Polo",
+    "choice3": "Vasco da Gama",
+    "choice4": "Magellan",
+    "answer": 4
+  }
+]
