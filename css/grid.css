@@ -331,6 +331,7 @@ main h1 {
   size: 10px;
   margin-top: 15px;
   margin-bottom: 10px;
+  padding: 0px 10px;
 }
 
 /*------- Slider properties -------*/
@@ -338,6 +339,7 @@ main h1 {
   max-width: 100%;
   height: 200px;
   position: relative;
+  padding: 0px 10px;
 }
 
 .wrapper {
@@ -389,6 +391,7 @@ main h1 {
   background-color: var(--cultured);
   margin: 0;
   text-align: center;
+  z-index: 60;
 }
 
 .labeled h6 {
@@ -413,11 +416,11 @@ main h1 {
   border-radius: 10px;
   text-decoration: none;
 }
-
+/*
 .labeled a:hover {
   transform: scale(1.2);
 }
-
+*/
 /* Slider controls */
 .control {
   position: absolute;
@@ -427,7 +430,7 @@ main h1 {
   background: #fff;
   border-radius: 50%;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
-  z-index: 50;
+  z-index: 80;
 }
 
 .prev,
@@ -458,7 +461,6 @@ main h1 {
   display: flex;
   justify-content: space-between;
   align-items: end;
-
 }
 
 .category-header a {
@@ -470,6 +472,7 @@ main h1 {
   grid: auto-flow max-content / repeat(12, 1fr);
   grid-gap: 10px;
   margin-bottom: 40px;
+  padding: 0px 10px;
 }
 
 .category-label {
@@ -504,14 +507,13 @@ main h1 {
 
 /*-------------- Categories page display and layout --------------*/
 
-main h1 {
+.category-name {
   color: var(--carolina-blue);
   size: 10px;
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  padding: 0px;
 }
-
-
 
 /*-------------- Quiz page display and layout --------------*/
 
@@ -524,6 +526,7 @@ main h1 {
 .progess-box {
   display: flex;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 .timer {
@@ -537,6 +540,7 @@ main h1 {
   padding: 10px;
   margin-bottom: 10px;
   min-height: 100px;
+  font-size: 24px;
 }
 
 /* Answers sub container */
@@ -557,6 +561,7 @@ main h1 {
   max-height: 100%;
   border-radius: 5px;
   border: none;
+  font-size: 24px;
   color: #fff;
   text-align: center;
   text-decoration: none;
