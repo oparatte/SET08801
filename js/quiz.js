@@ -18,11 +18,11 @@ let availableQuesions = []; // array of avialable questions
 let counter; // timer counter
 let correctAnswers = 0; // correct answers counter
 let wrongAnswers = 0; // wrong answers counter
-let timeScore; // ti include time in score calculation
+let timeScore; // to include time in score calculation
 
 // Constants definition
-const CORRECT_POINTS = 10; // number of points for correct answer
-const NB_QUESTIONS = 3; // number of questions in quiz
+const CORRECT_POINTS = 30; // number of points for correct answer
+const NB_QUESTIONS = 15; // number of questions in quiz
 
 console.log(quizCategory) // --- DEBUG ONLY --- 
 
@@ -88,7 +88,7 @@ answers.forEach((choice) => {
         console.log(selectedAnswer) // --- DEBUG ONLY ---  
 
         if (selectedAnswer == currentQuestion.answer) {
-            score = score + (CORRECT_POINTS * timeScore);
+            score = score + (CORRECT_POINTS + timeScore);
             console.log(score) // --- DEBUG ONLY --- 
             correctAnswers++;
         }
