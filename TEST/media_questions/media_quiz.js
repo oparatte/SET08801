@@ -30,12 +30,6 @@ console.log(quizCategory) // --- DEBUG ONLY ---
 // Fetching questions from json file
 let questions = [];
 
-window.onload=function autoplay(){
-    var r =confirm("Would You Like To AutoPlay Music?");
-    if (r == true) {
-        document.getElementById("player").play();
-    }
-  }
 
 
 fetch('media_questions/mediaQuestions.json')
@@ -44,7 +38,24 @@ fetch('media_questions/mediaQuestions.json')
     })
     .then((loadedQuestions) => {
         questions = loadedQuestions;
-        startQuiz();
+        //startQuiz();
+        window.addEventListener("load", function(){
+            setTimeout(
+                function open(event){
+                    document.querySelector(".popup").style.display = "block";
+                    document.querySelector(".question-container").style.display = "none";
+                },
+                1000
+            )
+        });
+        
+        
+        document.querySelector("#close").addEventListener("click", function(){
+            document.querySelector(".popup").style.display = "none";
+            document.querySelector(".question-container").style.display = "block";
+            startQuiz();
+        });
+
     })
     .catch((err) => {
         console.error(err);

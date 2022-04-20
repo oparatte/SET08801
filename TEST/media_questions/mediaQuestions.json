@@ -19,7 +19,7 @@
   },
   {
     "source":"media_questions/happyrock.mp",
-    "question": "no sound",
+    "question": "sound",
     "choice1": "Fleetwood Mac",
     "choice2": "Queen",
     "choice3": "Black Sabbath",
@@ -28,7 +28,7 @@
   },
   {
     "source":"media_questions/jazzyfrenchy.mp3",
-    "question": "no source",
+    "question": "source",
     "choice1": "Fleetwood Mac",
     "choice2": "Queen",
     "choice3": "Black Sabbath",

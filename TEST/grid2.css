@@ -713,6 +713,27 @@ textarea {
     color: var(--crimson);
   }
 
+  .popup{
+    background-color: #7bbdc1;
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    display: none;
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
 
 /*---------------------- Media queries ----------------------*/
 
