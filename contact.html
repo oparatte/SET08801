@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>QuizMaster | Contact</title>
+    <meta name="author" content="QuizMaster">
+    <meta name="description" content="QuizMaster website home page">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="rowfix">
+        <nav class="row small-12">
+            <a href="index.html">
+                <img class="logo" src="images/quizmaster-logo.png" alt="QuizMaster Logo">
+            </a>
+            <input class="checkbox" type="checkbox" />
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu limited">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#Popular Quizzes">Popular Quizzes</a></li>
+                <li><a href="categories.html">Quiz Categories</a></li>
+                <li><a href="#Leader Board">Leader Board</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row limited">
+            <div class="contact-form">
+                <h1>Contact Form</h1>
+                <p>We'd love to hear from you! Please send us a message with your feedback and ideas.</p>
+                    <form action="https://formspree.io/f/xrgjyvjr" method="POST"> <!-- DEMO: using extranal tool as no server -->
+                        <label class="required" for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+                    
+                        <label class="required" for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
+
+                        <label class="required" for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email..." required>
+
+                        <label class="required" for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject.." required>
+           
+                        <label class="required" for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write something.." required></textarea>
+                    
+                        <input class="btn" type="submit" value="Submit">
+                    </form>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="rowfix">
+
+        <div class="row limited">
+
+            <div class="footer-left column small-12 medium-6 large-3">
+                <img class="logo" src="images/quizmaster-logo.png" alt="QuizMaster Logo">
+                <div class="footer-link">
+                    <a href=index.html class="link-1">Home</a>
+                    <a href="#">FAQ</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <p class="footer-copyright">QuizMaster © 2022</p>
+            </div> <!-- end of footer-left -->
+
+            <div class="footer-center column small-12 medium-6 large-3">
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>1 Quiz Ave</span> Palo Alto, California</p>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+1.555.555.5555</p>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@quizmaster.com">support@quizmaster.com</a></p>
+                </div>
+            </div> <!-- end of footer-center -->
+
+            <div class="footer-right column small-12 large-3">
+                <p class="footer-company-about">
+                    <span>About QuizMaster</span>
+                    QuizMaster website aim is to entertain visitors with online quizzes and trivia on a number of
+                    different topics. It was created as an assignment for the SET08801 Web Technologies module with
+                    Edinburgh Napier University.
+                </p>
+                <div class="footer-icons">
+                    <!-- DEMO: links to edinburgh napier university social media is on purpose (no pages created for QuizMaster) -->
+                    <a href="https://github.com/oparatte/SET08801" target="_blank" class="fa fa-github"></a>
+                    <a href="https://www.facebook.com/EdinburghNapierUniversity" target="_blank"
+                        class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/EdinburghNapier" target="_blank" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/edinburghnapier" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://www.youtube.com/user/EdinburghNapierUni" target="_blank" class="fa fa-youtube"></a>
+                </div>
+            </div> <!-- end of footer-right -->
+
+        </div>
+
+    </footer>
+
+    <body>
+
+</html>
