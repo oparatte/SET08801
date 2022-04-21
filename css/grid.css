@@ -427,28 +427,22 @@ main h1 {
   top: 80px;
   width: 30px;
   height: 30px;
-  background: #fff;
+  background: var(--maximum-blue-green);
   border-radius: 50%;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 80;
-}
-
-.prev,
-.next {
-  background-size: 25px;
-  background-position: center;
-  background-repeat: no-repeat;
+  font-size: 30px;
+  vertical-align: middle;
+  color: #fff;
   cursor: pointer;
 }
 
 .prev {
-  background-image: url(/images/caret-left.png);
-  left: 10px;
+  padding: 9px 0 0 8px;
 }
 
 .next {
-  background-image: url(/images/caret-right.png);
-  right: 10px;
+  padding: 10px 0 0 14px;
 }
 
 .prev:active,
