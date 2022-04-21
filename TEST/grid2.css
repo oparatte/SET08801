@@ -521,6 +521,7 @@ main h1 {
 .question-container {
   padding: 10px;
   margin-top: 100px;
+  display: none;
 }
 
 .progess-box {
@@ -713,26 +714,39 @@ textarea {
     color: var(--crimson);
   }
 
-  .popup{
-    background-color: #7bbdc1;
-    width: 450px;
-    padding: 30px 40px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-    display: none;
-    text-align: center;
+
+/*------- popup --------*/
+.popup {
+  background-color: #fff;
+  width: 450px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  display: block;
+  padding: 10px;
+  border: 3px solid var(--cultured);
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .3);
 }
-.popup button{
-    display: block;
-    margin:  0 0 20px auto;
-    background-color: transparent;
-    font-size: 30px;
-    color: #c5c5c5;
-    border: none;
-    outline: none;
-    cursor: pointer;
+
+.popup .btn {
+	display: block;
+	margin: 15px auto;
+}
+
+.popup h1 {
+  text-align: center;
+	margin: 15px 0 ;
+}
+
+.popup ul {
+  list-style-position: outside;
+}
+
+.popup li {
+  list-style-type: decimal;
+  margin-bottom: 10px;
 }
 
 /*---------------------- Media queries ----------------------*/

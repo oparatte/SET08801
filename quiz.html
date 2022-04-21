@@ -37,8 +37,22 @@
     </header>
 
     <main>
+        <!-- Popup Quiz Instructions -->
+        <div class="popup" id="popup">
+            <h1>Quiz Instructions</h2>
+            <ul>
+                <li>You have 30 seconds to answer each questions</li>
+                <li>Clicking on an answer will automaticaly display the next question</li>
+                <li>You can't go back to previous questions</li>
+                <li>If the times runs out, the next question will automaticaly be displayed</li>
+                <li>You get 30 points for a correct answers plus 1 point per second left in the timer</li>
+            </ul>
+            <button class="btn" id="start-btn">Start Quiz</button>
+            
+        </div>
+
         <!-- question container -->
-        <div class="question-container limited">
+        <div class="question-container limited" id="question-container">
 
              <!-- quiz progession info -->
             <div class="progess-box">
@@ -50,6 +64,12 @@
             <div class="question-box" id="question">
                 Question text
             </div> 
+
+            <!-- Media player for audio questions-->
+            <audio id="player" autoplay>
+                <source src="" type="audio/mp3">
+                Your browser doesn't support audio
+            </audio> 
 
             <!-- answers sub container-->
             <div class="answer-subcontainer">

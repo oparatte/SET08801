@@ -4,6 +4,9 @@ const answers = Array.from(document.getElementsByClassName('answer-box')); //ref
 const progressText = document.getElementById('progress-text'); // reference to quiz progression text
 const scoreText = document.getElementById('score'); 
 const timeCount = document.getElementById('timer-counter'); // reference to quiz timer
+const popup = document.getElementById('popup'); // reference to popup box
+const qContainer = document.getElementById('question-container'); // reference to question-container
+const startBtn = document.getElementById('start-btn'); // reference to question-container
 
 const urlParams = new URLSearchParams(window.location.search); // get category parameter from url
 const quizCategory = urlParams.get('category'); 
@@ -34,12 +37,22 @@ fetch(`${quizCategory}`)
         return res.json();
     })
     .then((loadedQuestions) => {
-        questions = loadedQuestions;
-        startQuiz();
+        questions = loadedQuestions;   
+        window.addEventListener("load", (open) => {
+            popup.style.display = "block";
+            qContainer.style.display = "none";
+        });
+    
+        startBtn.addEventListener("click", () => {
+            popup.style.display = "none";
+            qContainer.style.display = "block";
+            startQuiz();
+        });
     })
-    .catch((err) => {
-        console.error(err);
-    });
+    
+.catch((err) => {
+    console.error(err);
+});
 
 // function to start the quiz
 startQuiz = () => {

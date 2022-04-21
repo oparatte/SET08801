@@ -517,10 +517,45 @@ main h1 {
 
 /*-------------- Quiz page display and layout --------------*/
 
-/* Questions main container */
+/*------- popup --------*/
+.popup {
+  background-color: #fff;
+  width: 450px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  display: block;
+  padding: 10px;
+  border: 3px solid var(--cultured);
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .3);
+}
+
+.popup .btn {
+	display: block;
+	margin: 15px auto;
+}
+
+.popup h1 {
+  text-align: center;
+	margin: 15px 0 ;
+}
+
+.popup ul {
+  list-style-position: outside;
+}
+
+.popup li {
+  list-style-type: decimal;
+  margin-bottom: 10px;
+}
+
+/*------- Questions container -------*/
 .question-container {
   padding: 10px;
   margin-top: 100px;
+  display: none;
 }
 
 .progess-box {

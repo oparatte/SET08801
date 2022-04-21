@@ -3,8 +3,11 @@ const question = document.getElementById('question'); // reference to question e
 const answers = Array.from(document.getElementsByClassName('answer-box')); //reference to answers text
 const media = document.getElementById('player'); // reference to player element
 const progressText = document.getElementById('progress-text'); // reference to quiz progression text
-const scoreText = document.getElementById('score'); 
+const scoreText = document.getElementById('score');
 const timeCount = document.getElementById('timer-counter'); // reference to quiz timer
+const popup = document.getElementById('popup'); // reference to popup box
+const qContainer = document.getElementById('question-container'); // reference to question-container
+const startBtn = document.getElementById('start-btn'); // reference to question-container
 
 const urlParams = new URLSearchParams(window.location.search); // get category parameter from url
 const quizCategory = urlParams.get('category'); 
@@ -14,7 +17,7 @@ let currentQuestion = {};
 let enableAnswers = false; // to enable/disable users to answer questions 
 let score = 0; // score tracker
 let questionCounter = 0; // track current question number
-let timerValue = 3000; // time to answer questions
+let timerValue = 30; // time to answer questions
 let availableQuesions = []; // array of avialable questions
 let counter; // timer counter
 let correctAnswers = 0; // correct answers counter
@@ -37,22 +40,15 @@ fetch('media_questions/mediaQuestions.json')
         return res.json();
     })
     .then((loadedQuestions) => {
-        questions = loadedQuestions;
-        //startQuiz();
-        window.addEventListener("load", function(){
-            setTimeout(
-                function open(event){
-                    document.querySelector(".popup").style.display = "block";
-                    document.querySelector(".question-container").style.display = "none";
-                },
-                1000
-            )
+        questions = loadedQuestions;   
+        window.addEventListener("load", (open) => {
+            popup.style.display = "block";
+            qContainer.style.display = "none";
         });
         
-        
-        document.querySelector("#close").addEventListener("click", function(){
-            document.querySelector(".popup").style.display = "none";
-            document.querySelector(".question-container").style.display = "block";
+        startBtn.addEventListener("click", () => {
+            popup.style.display = "none";
+            qContainer.style.display = "block";
             startQuiz();
         });
 

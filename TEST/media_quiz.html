@@ -14,18 +14,21 @@
 
 <body>
     <main>
-        <div class="popup">
-            <h2>Rules of this Quiz</h2>
-            <div>1. You will have only 30 seconds for each question.</div>
-            <div>2. Once you select your answer, it can't be undone.</div>
-            <div>3. You can't select any option once time goes off.</div>
-            <div>4. You can't exit from the Quiz while you're playing.</div>
-            <div>5. You'll get points on the basis of your correct answers.</div>
-            <button class="btn" id="close">Start Quiz</button>
+        <div class="popup" id="popup">
+            <h1>Rules of this Quiz</h2>
+            <ul>
+                <li>You have 30 seconds to answer each questions</li>
+                <li>Clicking on an answer will automaticaly display the next question</li>
+                <li>You can't go back to previous questions</li>
+                <li>If the times runs out, the next question will automaticaly be displayed</li>
+                <li>You get 30 points for a correct answers plus 1 point per second left in the timer</li>
+            </ul>
+            <button class="btn" id="start-btn">Start Quiz</button>
+            
         </div>
 
         <!-- question container -->
-        <div class="question-container limited">
+        <div class="question-container limited" id="question-container">
 
              <!-- quiz progession info -->
             <div class="progess-box">
@@ -37,11 +40,6 @@
             <div class="question-box" id="question"> 
                 Question text
             </div>
-
-           <!-- 
-            <iframe src="media_questions/silence.mp3" type="audio/mp3" 
-            allow="autoplay" id="audio" style="display:none"></iframe>
-            -->
 
             <audio id="player" autoplay controls>
                 <source src="" type="audio/mp3">
