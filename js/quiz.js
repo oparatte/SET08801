@@ -1,6 +1,7 @@
 // References to various elements
 const question = document.getElementById('question'); // reference to question element
 const answers = Array.from(document.getElementsByClassName('answer-box')); //reference to answers text
+const media = document.getElementById('player'); // reference to player element
 const progressText = document.getElementById('progress-text'); // reference to quiz progression text
 const scoreText = document.getElementById('score'); 
 const timeCount = document.getElementById('timer-counter'); // reference to quiz timer
@@ -49,7 +50,7 @@ fetch(`${quizCategory}`)
             startQuiz();
         });
     })
-    
+
 .catch((err) => {
     console.error(err);
 });
@@ -79,6 +80,7 @@ getNewQuestion = () => {
     const questionIndex = Math.floor(Math.random() * availableQuesions.length); 
     currentQuestion = availableQuesions[questionIndex]; // select random question based nb of question in array
     question.innerText = currentQuestion.question; // display question in question-box
+    media.src = currentQuestion.source;
 
     answers.forEach((choice) => {
         const number = choice.dataset['number'];

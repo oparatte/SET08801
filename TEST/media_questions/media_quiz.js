@@ -33,8 +33,6 @@ console.log(quizCategory) // --- DEBUG ONLY ---
 // Fetching questions from json file
 let questions = [];
 
-
-
 fetch('media_questions/mediaQuestions.json')
     .then((res) => {
         return res.json();

@@ -1,5 +1,6 @@
 [
   {
+    "source":"",
     "question": "Which language is used for creating Web Pages?",
     "choice1": "PASCAL",
     "choice2": "C",
@@ -8,6 +9,7 @@
     "answer": 3
   },
   {
+    "source":"",
     "question": "The communication protocol used by the Internet to transfer hypertext documents is",
     "choice1": "Hyper Text Internet Protocol",
     "choice2": "Hyper Text Transfer Protocol",
@@ -16,6 +18,7 @@
     "answer": 2
   },
   {
+    "source":"",
     "question": "The entire web document is contained within ?",
     "choice1": "Comments",
     "choice2": "Tags",
@@ -24,6 +27,7 @@
     "answer": 4
   },
   {
+    "source":"",
     "question": "HTML document should begin with the ?",
     "choice1": "<HEAD> tag",
     "choice2": "<TITLE> tag",
@@ -32,6 +36,7 @@
     "answer": 4
   },
   {
+    "source":"",
     "question": "The HTML and HTTP standard are defined by ?",
     "choice1": "Web client",
     "choice2": "Internet association",
@@ -40,6 +45,7 @@
     "answer": 3
   },
   {
+    "source":"",
     "question": "GIF is the abbreviation of ?",
     "choice1": "Graphics Interchange Format",
     "choice2": "Graphics Instruction Format",
@@ -48,6 +54,7 @@
     "answer": 1
   },
   {
+    "source":"",
     "question": "The <Font> tag is similar to ?",
     "choice1": "<BIG>tag",
     "choice2": "<SMALL>tag",
@@ -56,6 +63,7 @@
     "answer": 4
   },
   {
+    "source":"",
     "question": "What is the name of the location address of the hypertext documents?",
     "choice1": "Uniform Resource Locator",
     "choice2": "Web server",
@@ -64,6 +72,7 @@
     "answer": 1
   },
   {
+    "source":"",
     "question": "The ____ passes the information given by the user to a specified program",
     "choice1": "User",
     "choice2": "Programmer",
@@ -72,6 +81,7 @@
     "answer": 3
   },
   {
+    "source":"",
     "question": "____ is used to store the data within the documents on the server",
     "choice1": "XML",
     "choice2": "HTML",
@@ -80,6 +90,7 @@
     "answer": 1
   },
   {
+    "source":"",
     "question": "Web page editors works on a ____ principle",
     "choice1": "WWW",
     "choice2": "HTML",
@@ -88,6 +99,7 @@
     "answer": 3
   },
   {
+    "source":"",
     "question": "Which program is used by web clients to view the web pages?",
     "choice1": "Web browser",
     "choice2": "Protocol",
@@ -96,6 +108,7 @@
     "answer": 1
   },
   {
+    "source":"",
     "question": "Which tag is used to display text in title bar of a web document?",
     "choice1": "Body tag",
     "choice2": "Title tag",
@@ -104,6 +117,7 @@
     "answer": 2
   },
   {
+    "source":"",
     "question": "What are shared on the Internet and are called as Web pages?",
     "choice1": "Programs",
     "choice2": "Cables",
@@ -112,6 +126,7 @@
     "answer": 3
   },
   {
+    "source":"",
     "question": "Transferring your HTML code from one machine to server is known as",
     "choice1": "Hosting",
     "choice2": "Indexing",
@@ -120,6 +135,7 @@
     "answer": 1
   },
   {
+    "source":"",
     "question": "The ____ attribute is used to identify the values of variables",
     "choice1": "text",
     "choice2": "http-equiv",
@@ -128,6 +144,7 @@
     "answer": 3
   },
   {
+    "source":"",
     "question": "The tag used to add images to the HTML document is ?",
     "choice1": "<FONT>",
     "choice2": "<HR>",
@@ -136,6 +153,7 @@
     "answer": 4
   },
   {
+    "source":"",
     "question": "____ is a collection of controls in HTML",
     "choice1": "Form",
     "choice2": "Field",
@@ -144,6 +162,7 @@
     "answer": 1
   },
   {
+    "source":"",
     "question": "Which are used with a tag to modify its function?",
     "choice1": "Files",
     "choice2": "Attributes",
@@ -152,6 +171,7 @@
     "answer": 2
   },
   {
+    "source":"",
     "question": "Which is the formal description of message formats and rules to be followed by computers?",
     "choice1": "Standards",
     "choice2": "Protocol",
