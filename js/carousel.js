@@ -34,20 +34,21 @@ function slide(wrapper, items, prev, next) {
   items.onmousedown = dragStart;
   
   // Touch events
-  items.addEventListener('touchstart', dragStart);
+  //items.addEventListener('touchstart', dragStart);
+  items.addEventListener('touchstart', dragStart, {passive:true});
   items.addEventListener('touchend', dragEnd);
   items.addEventListener('touchmove', dragAction);
-  
+
   // Click events
   prev.addEventListener('click', function () { shiftSlide(-1) });
   next.addEventListener('click', function () { shiftSlide(1) });
-  
+
   // Transition events
   items.addEventListener('transitionend', checkIndex);
   
   function dragStart (e) {
     e = e || window.event;
-    e.preventDefault();
+    //e.preventDefault();
     posInitial = items.offsetLeft;
     
     if (e.type == 'touchstart') {

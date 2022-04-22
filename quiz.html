@@ -10,29 +10,29 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="rowfix">
         <nav class="row small-12">
-            <a href="index.html">
-                <img class="logo" src="images/quizmaster-logo.png" alt="QuizMaster Logo">
-            </a>
-            <input class="checkbox" type="checkbox" />
-            <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
+            <div class="limited">
+                <a href="index.html">
+                    <img class="logo" src="images/quizmaster-logo.png" alt="QuizMaster Logo">
+                </a>
+                <input class="checkbox" type="checkbox" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <ul class="menu limited">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Quiz Categories</a></li>
+                    <li><a href="leaderboard.html">Leader Board</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
-            <ul class="menu limited">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#Popular Quizzes">Popular Quizzes</a></li>
-                <li><a href="categories.html">Quiz Categorie</a></li>
-                <li><a href="#Leader Board">Leader Board</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
         </nav>
     </header>
 
@@ -46,7 +46,7 @@
                 <li>You can't go back to previous questions</li>
                 <li>If the times runs out, the next question will automaticaly be displayed</li>
                 <li>You get 30 points for a correct answers plus 1 point per second left in the timer</li>
-                <p>Turn up the wolume and enjoy the audio Quizzes!</p>
+                <p>Turn up the volume and enjoy the audio Quizzes!</p>
             </ul>
             <button class="btn" id="start-btn">Start Quiz</button>
             
