@@ -551,7 +551,7 @@ main img {
   padding: 10px;
   margin-top: 70px;
   display: none;
-  max-width: 900px;
+  max-width: 800px;
 }
 
 .progess-box {
@@ -628,7 +628,7 @@ main img {
 
 /*-------------- Result page display and layout --------------*/
 .results-container {
-	margin-top: 100px;
+	margin-top: 60px;
 	padding: 10px;
 }
 
@@ -640,7 +640,7 @@ main img {
 	padding: 10px;
 	min-height: 300px;
 	max-width: 600px;
-	box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .3);
+	box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
 }
 
 .score-box h2 {
@@ -658,7 +658,7 @@ main img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 500px;
+	max-width: 300px;
 	border-radius: 5px;
 }
 
@@ -668,13 +668,30 @@ main img {
 	color: #fff;
 	border-radius: 5px;
 	border: none;
-	padding: 10px;
+	padding: 15px;
 	width: 150px;
 	cursor: pointer;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
 }
 
-#homeBtn, #catBtn {
-	background-color: var(--maximum-blue-green)
+/* Buttons sub container */
+.score-options {  
+  display: grid;
+  grid: auto-flow / repeat(6, 1fr);
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.score-options .btn {
+	width: 100%;
+}
+
+.score-options .save-btn {
+	grid-column: span 6;
+}
+
+.score-options .option-btn {
+	grid-column: span 3;
 }
 
 .btn:hover {opacity: 0.8;}
@@ -689,14 +706,14 @@ main img {
 /* Input fields formatting for result and contact pages */
 input[type=text], input[type="email"], textarea {
 	width: 100%;
-	padding: 10px;
+	padding: 5px;
 	margin: 10px 0;
 	display: inline-block;
 	box-sizing: border-box;
 	border: 2px solid var(--cultured);
 	border-radius: 5px;
-	margin-top: 6px;
-	margin-bottom: 16px;
+  margin-top: 5px;
+  margin-bottom: 15px;
   }
 
 /*-------------- Contact page display and layout --------------*/
@@ -704,35 +721,37 @@ input[type=text], input[type="email"], textarea {
 /* Format contact container */
 .contact-form {
 	display: block;
-	margin: 100px auto;
+	margin: 60px 10px;
 	padding: 10px;
 	border: 3px solid var(--cultured);
 	border-radius: 5px;
 	padding: 10px;
-	max-width: 600px;
-	box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .3);
+  min-width: 350px;
+	max-width: 700px;
+	box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
 }
 
 /* Format message input box */
 textarea {
-	height:150px;
+	height:100px;
 	resize: vertical;
   }
 
 .contact-form label {
-	font-size: 20px;
+	font-size: 18px;
 	color: var(--carolina-blue);
 }
+
 .contact-form h1 {
 	text-align: center;
 	padding: 0;
+  margin: 0;
 }
 
 /* Format Submit button */
 .contact-form .btn {
 	display: block;
 	margin: auto;
-	margin-bottom: 15px;
 }
 
 /* Highlight invalid email input */
@@ -752,6 +771,10 @@ textarea {
 /* Dispaly width settings */
 .small-12 {
   width: 100%;
+}
+
+.small-6 {
+  width: 49%;
 }
 
 /*------- Small devices - landscape mode -------*/
@@ -780,6 +803,28 @@ textarea {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-auto-flow: row;
+  }
+
+  /*** Result page adjustment ***/
+  
+  /* Result container */
+  .results-container {
+    margin-top: 50px;
+  }
+
+  /* Buttons sub container */
+  .score-options .option-btn, .save-btn {
+    grid-column: span 2;
+  }
+  
+  .score-options .save-btn {
+    grid-column: span 2;
+  }
+
+  /*** Contact page adjustment ***/
+  .contact-form {
+    display: block;
+    margin: 60px auto;
   }
 
 }/* End of small devices - landscape mode */
@@ -853,6 +898,40 @@ textarea {
 
   .question-container {
     margin-top: 150px;
+  }
+
+  /*** Result page adjustment ***/
+  
+  /* Input fields formatting for result and contact pages */
+  input[type=text], input[type="email"], textarea {
+	  padding: 10px;
+  }
+
+
+  /* Result container */
+  .results-container {
+    margin-top: 70px;
+  }
+
+  /* Result container */
+  .score-box {
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .3);
+  }
+
+  .score-box img {
+    max-width: 400px;
+  }
+
+  /*** Contact page adjustment ***/
+
+  /* Format contact container */
+  .contact-form {
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .3);
+    margin: 100px auto;
+  }
+
+  .contact-form label {
+    font-size: 20px;
   }
 
 

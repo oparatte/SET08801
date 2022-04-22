@@ -13,17 +13,17 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || []; // read
 // Constants definition
 const MAX_HIGH_SCORES = 5; // top N socre to save
 
-finalScore.innerText = 'You scored ' + latestScore + ' Points';
-nbCorrectAnswers.innerText = "You've answersed " + correctAnswers + ' questions correctly';
+finalScore.innerText = "You've scored " + latestScore + ' Points';
+nbCorrectAnswers.innerText = "You've answered " + correctAnswers + ' questions correctly';
 
 // Display result text based on score
 if (latestScore >= 600) {
-    resultText.innerText = 'Congrats!';
+    resultText.innerText = 'Fantastic!';
     resultImage.src = "images/sheep-thumbsup.gif" ;
 }
 
 else if (latestScore > 300) {
-    resultText.innerText = 'Nice';
+    resultText.innerText = 'Well done';
     resultImage.src = "images/sheep-clapping.gif";
 }
 

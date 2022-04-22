@@ -42,23 +42,25 @@
         <div class="results-container">
             <div class="score-box limited">
                 <h2 id="final-score"></h2>
-                <h3 id="nb-correct"></h2>
+                <h3 id="nb-correct"></h3>
                 <img id="result-img" src="" alt="Score result image">
                 <h2 id="result-text"></h2>
-                <form>
-                    <input type="text" name="playername" id="playername" placeholder="Enter your name" /> 
-                    <br>
-                    <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>
-                        Save score
-                    </button>
-                </form>
-                <br>
-
-                <button type="button" class="btn" id="homeBtn" onclick="window.location.href='index.html';">Go Home</button>
-
-                <button type="button" class="btn" id="catBtn" onclick="window.location.href='categories.html';">Other Quizzes</button>
-                <br>
                 
+                <form>
+                    <input type="text" name="playername" id="playername" placeholder="Enter your name" />
+                </form>
+
+                <div class="score-options">
+                    <div class="save-btn">
+                        <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save score</button>
+                    </div>
+                    <div class="option-btn">
+                        <button type="button" class="btn" id="catBtn"onclick="window.location.href='categories.html';">Other Quizzes</button>
+                    </div>
+                    <div class="option-btn">
+                        <button type="button" class="btn" id="homeBtn"onclick="window.location.href='index.html';">Home</button>
+                    </div>               
+                </div>
             </div>
         </div>
 
