@@ -662,7 +662,7 @@ main img {
 	border-radius: 5px;
 }
 
-/* Buttons formatting for result and contact pages */
+/* Buttons formatting for result, contact and leaderboard pages */
 .btn {
 	background-color: var(--golden-poppy);
 	color: #fff;
@@ -714,7 +714,68 @@ input[type=text], input[type="email"], textarea {
 	border-radius: 5px;
   margin-top: 5px;
   margin-bottom: 15px;
-  }
+}
+
+/*-------------- Leaderboard page display and layout --------------*/
+
+.leaderboard-container {
+	margin: 60px 0 30px 0;
+	padding: 10px;
+}
+
+.leaderboard-box {
+	display: block;
+	padding: 10px;
+	border: 3px solid var(--cultured);
+	border-radius: 5px;
+	padding: 10px;
+  min-width: 350px;
+	max-width: 600px;
+  min-height: 500px;
+	box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
+}
+
+.leaderboard-box h1 {
+	text-align: center;
+	padding: 0;
+  margin: 10px 0 15px 0;
+}
+
+/* Table properties */
+.leaderboard-box table {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Table header */
+.leaderboard-box th {
+  border: 1px solid var(--darkCultured);
+  background-color: var(--maximum-blue-green);
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px 10px;
+}
+
+/* Table rows */
+.leaderboard-box td {
+  border: 1px solid var(--darkCultured);
+  padding: 5px 10px;
+  text-align: inline-block;
+}
+
+/* Table odd rows colour */
+#leaderboard tr:nth-child(odd){background-color: var(--cultured);}
+
+
+.leaderboard-btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+}
 
 /*-------------- Contact page display and layout --------------*/
 
@@ -907,7 +968,6 @@ textarea {
 	  padding: 10px;
   }
 
-
   /* Result container */
   .results-container {
     margin-top: 70px;
@@ -934,6 +994,22 @@ textarea {
     font-size: 20px;
   }
 
+  /*** Leaderboard page adjustment ***/
+  .leaderboard-box {
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, .3);
+    margin: 60px auto;
+  }
+
+  /* Table header */
+  .leaderboard-box th {
+    font-size: 24px;
+  }
+
+  /* Table rows */
+  .leaderboard-box td {
+    font-size: 20px;
+    padding: 8px 10px;
+  }
 
 } /* End of medium devices - 768px and up */
 

@@ -1,1 +1,14 @@
-[]
+[
+    {
+    "name": "Bob",
+    "score": 450
+    },
+    {
+        "name": "Paul",
+        "score": 500
+    },
+    {
+        "name": "John",
+        "score": 350
+    }
+]

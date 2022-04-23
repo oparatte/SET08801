@@ -8,7 +8,20 @@ const resultImage = document.getElementById('result-img'); // reference to resul
 const latestScore = localStorage.getItem('latestScore'); // reference to score in local storage
 const correctAnswers = localStorage.getItem('latestCorrect'); // reference to nb of correct answers in local storage
 
-const highScores = JSON.parse(localStorage.getItem('highScores')) || []; // read highScores array or create it 
+// Read highScores array from local storage or create dummy scores
+const highScores = JSON.parse(localStorage.getItem('highScores')) ||
+[
+{"Name": "Keyser Söze","Score": 652},
+{"Name": "Ellen Ripley","Score": 547},
+{"Name": "Sarah Connor","Score": 524},
+{"Name": "Michael Corleone","Score": 491},
+{"Name": "Lara Croft","Score": 485},
+{"Name": "Marty McFly","Score": 418},
+{"Name": "Harry Callahan","Score": 373},
+{"Name": "Peter Venkman","Score": 296},
+{"Name": "Wayne Campbell","Score": 248},
+{"Name": "Joey Tribbiani","Score": 150}
+]; 
 
 // Constants definition
 const MAX_HIGH_SCORES = 5; // top N socre to save
@@ -37,19 +50,25 @@ playername.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !playername.value;
 });
 
+fetch("json/scores.json")
+.then(response => {
+   return response.json();
+})
+.then(jsondata => console.log(jsondata));
+
 // Upate high scores
 saveHighScore = (e) => {
     e.preventDefault();
 
     const score = {
-        score: latestScore,
-        name: playername.value,
+        Name: playername.value,
+        Score: latestScore,
     };
     highScores.push(score);
     highScores.sort((a, b) => b.score - a.score);
-    highScores.splice(5);
+    highScores.splice(10);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign('/');
+    window.location.assign('leaderboard.html');
 
 };
