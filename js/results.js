@@ -65,10 +65,10 @@ saveHighScore = (e) => {
         Score: latestScore,
     };
     highScores.push(score);
-    highScores.sort((a, b) => b.score - a.score);
+    highScores.sort((a, b) => b.Score - a.Score);
     highScores.splice(10);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign('leaderboard.html');
+    //window.location.assign('leaderboard.html');
 
 };

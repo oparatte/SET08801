@@ -1,6 +1,7 @@
 const leaderboard = document.getElementById("leaderboard"); // reference to leaderboard table 
 
 // Read highScores array from local storage or create dummy scores
+
 const highScores = JSON.parse(localStorage.getItem('highScores')) ||
 [
 {"Name": "Keyser Söze","Score": 652},
