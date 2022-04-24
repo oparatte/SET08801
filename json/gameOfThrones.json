@@ -28,7 +28,7 @@
   },
   {
     "source":"",
-    "question": "What is the sigil of House Bolton?",
+    "question": "What is the emblem of House Bolton?",
     "choice1": "The Flayed Man",
     "choice2": "The Kraken",
     "choice3": "The Direwolf",
@@ -64,7 +64,7 @@
   },
   {
     "source":"",
-    "question": "What is the largest castle in the Westeros?",
+    "question": "What is the largest castle in Westeros?",
     "choice1": "The Red Keep",
     "choice2": "Casterly Rock",
     "choice3": "Harrenhal",
@@ -82,7 +82,7 @@
   },
   {
     "source":"",
-    "question": "What is NOT one of the names of Dany’s three dragons?",
+    "question": "What is NOT one of the names of Daenerys’ three dragons?",
     "choice1": "Rhaegal",
     "choice2": "Viserion",
     "choice3": "Dracarys",
@@ -109,7 +109,7 @@
   },
   {
     "source":"",
-    "question": "What god do the Ironborn worship?",
+    "question": "Which God do the Ironborn worship?",
     "choice1": "The Storm God",
     "choice2": "The Many-Faced God",
     "choice3": "The Red God",

@@ -1,7 +1,7 @@
 [
   {
     "source":"mp3/AllSaints.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "All Saints",
     "choice2": "Cheeky Girls",
     "choice3": "Girls Aloud",
@@ -10,7 +10,7 @@
   },
   {
     "source":"mp3/Beyonce.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "Destinys Child",
     "choice2": "Beyoncé",
     "choice3": "Rihanna",
@@ -19,7 +19,7 @@
   },
   {
     "source":"mp3/Shakira.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "Christina Aguilera",
     "choice2": "Katy Perry",
     "choice3": "Shakira",
@@ -28,7 +28,7 @@
   },
   {
     "source":"mp3/ChemicalBrothers.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "Daft Punk",
     "choice2": "Moby",
     "choice3": "Faithless",
@@ -37,7 +37,7 @@
   },
   {
     "source":"mp3/GrooveArmada.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "Underworld",
     "choice2": "Groove Armada",
     "choice3": "Roger Sanchez",
@@ -46,7 +46,7 @@
   },
   {
     "source":"mp3/RobbieWilliams.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "Seal",
     "choice2": "Justin Timberlake",
     "choice3": "Robbie Williams",
@@ -55,7 +55,7 @@
   },
   {
     "source":"mp3/Supergrass.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "The Verve",
     "choice2": "Manic Street Preachers",
     "choice3": "Pulp",
@@ -64,7 +64,7 @@
   },
   {
     "source":"mp3/Whigfield.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "Whigfield",
     "choice2": "Bassment Jaxx",
     "choice3": "Faithless",
@@ -73,7 +73,7 @@
   },
   {
     "source":"mp3/SirMixAlot.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "MC Hammer",
     "choice2": "Sir Mix-a-Lot",
     "choice3": "Rick James",
@@ -82,7 +82,7 @@
   },
   {
     "source":"mp3/WyclefJean.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "will.i.am",
     "choice2": "Fugees",
     "choice3": "Wyclef Jean",
@@ -91,7 +91,7 @@
   },
   {
     "source":"mp3/TheWhiteStripes.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "The Lumineers",
     "choice2": "The Rasmus",
     "choice3": "The Killers",
@@ -100,7 +100,7 @@
   },
   {
     "source":"mp3/KaiserChiefs.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "Kaiser Chiefs",
     "choice2": "Franz Ferdinand",
     "choice3": "Kings of Leon",
@@ -109,7 +109,7 @@
   },
   {
     "source":"mp3/KoolAndTheGang.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "KC and The Sunshine Band",
     "choice2": "Kool & The Gang",
     "choice3": "Boney M",
@@ -118,7 +118,7 @@
   },
   {
     "source":"mp3/A-Ha.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "Dire Straits",
     "choice2": "Rick Astley",
     "choice3": "A-Ha",
@@ -127,7 +127,7 @@
   },
   {
     "source":"mp3/SaltNPepper.mp3",
-    "question": "Who singings this song?",
+    "question": "Who's singing this song?",
     "choice1": "Naughty By Nature",
     "choice2": "TLC",
     "choice3": "S'Express",

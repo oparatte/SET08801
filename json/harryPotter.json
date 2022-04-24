@@ -1,7 +1,7 @@
 [
   {
     "source":"",
-    "question": "What was the name of Harry Potter’s pet owl?",
+    "question": "What is the name of Harry Potter’s pet owl?",
     "choice1": "Hedwig",
     "choice2": "Luna",
     "choice3": "Dobby",
@@ -100,7 +100,7 @@
   },
   {
     "source":"",
-    "question": "What color was the sweater that Harry received from Mrs. Weasley for Christmas?",
+    "question": "What color was the sweater that Harry received from Mrs Weasley for Christmas?",
     "choice1": "Orange",
     "choice2": "Maroon",
     "choice3": "Blue",

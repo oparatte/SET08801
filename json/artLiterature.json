@@ -28,7 +28,7 @@
   },
   {
     "source":"",
-    "question": "Which artist’s works include “The Persistence of Memory”, “The Temptation of St. Anthony”, and “Lobster Telephone”?",
+    "question": "Which artist’s works includes “The Persistence of Memory”, “The Temptation of St. Anthony”, and “Lobster Telephone”?",
     "choice1": "Picasso",
     "choice2": "Salvador Dali",
     "choice3": "Jackson Pollock",
@@ -46,7 +46,7 @@
   },
   {
     "source":"",
-    "question": "Pablo Picasso and George Braques were pioneers of which early nineteenth century art movement noted for it’s concentration on geometrical figures?",
+    "question": "Pablo Picasso and George Braques were pioneers of which early 19th century art movement noted for it’s concentration on geometrical figures?",
     "choice1": "Impressionism",
     "choice2": "Realism",
     "choice3": "Cubism",
@@ -82,7 +82,7 @@
   },
   {
     "source":"",
-    "question": "The ‘Last Supper’ a famous renaissance painting was a master piece of",
+    "question": "The ‘Last Supper’ a famous renaissance painting was a masterpiece of",
     "choice1": "Leonardo da Vinci",
     "choice2": "Titian",
     "choice3": "Michael Angelo",
@@ -108,7 +108,7 @@
   },
   {
     "source":"",
-    "question": "Which poet wrote the poem “The Raven”?",
+    "question": "Which poet wrote the “The Raven”?",
     "choice1": "Robert Frost",
     "choice2": "Edgar Allen Poe",
     "choice3": "Walt Whitman",
@@ -117,7 +117,7 @@
   },
   {
     "source":"",
-    "question": "In 2016, which musician won the Nobel Peace Prize for Literature?",
+    "question": "In 2016 which musician won the Nobel Peace Prize for Literature?",
     "choice1": "Lenny Kravitz",
     "choice2": "Eric Clapton",
     "choice3": "Bob Dylan",
@@ -126,7 +126,7 @@
   },
   {
     "source":"",
-    "question": "In Ray Bradbury’s novel Fahrenheit 451, what are they burning?",
+    "question": "In Ray Bradbury’s novel Fahrenheit 451 what are they burning?",
     "choice1": "Clothes",
     "choice2": "Houses",
     "choice3": "Money",

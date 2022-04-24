@@ -10,7 +10,7 @@
   },
   {
     "source":"",
-    "question": "Released in 1973, \"Seven Seas of Rhye\" was the breakthrough hit for which British rock band ?",
+    "question": "Released in 1973, \"Seven Seas of Rhye\" was the breakthrough hit for which British rock band?",
     "choice1": "Fleetwood Mac",
     "choice2": "Queen",
     "choice3": "Black Sabbath",
@@ -19,7 +19,7 @@
   },
   {
     "source":"",
-    "question": "Nicknamed \"The Boss\", from which state does singer/songwriter \"Bruce Springsteen\" comes from?",
+    "question": "Nicknamed \"The Boss\", from which state does singer/songwriter \"Bruce Springsteen\" come from?",
     "choice1": "Florida",
     "choice2": "New York",
     "choice3": "Washington",
@@ -46,7 +46,7 @@
   },
   {
     "source":"",
-    "question": "Which band reached #1 in United States with the song \"Jump\" in 1984?",
+    "question": "Which band reached #1 in the United States with the song \"Jump\" in 1984?",
     "choice1": "Van Halen",
     "choice2": "Extreme",
     "choice3": "Whitesnake",
@@ -82,7 +82,7 @@
   },
   {
     "source":"",
-    "question": "Which American rock band entitled their 1981 debut album \"Too Fast for Love\"?",
+    "question": "Which American rock band named their 1981 debut album \"Too Fast for Love\"?",
     "choice1": "Poison",
     "choice2": "Twisted Sister",
     "choice3": "Skid Row",

@@ -10,7 +10,7 @@
   },
   {
     "source":"",
-    "question": "Which alcoholic drink is made from the leaves of the agave plant and gets its name from an area around a Mexican city?",
+    "question": "Which alcoholic drink is made from the leaves of the agave plant and gets its name from an area near a Mexican city?",
     "choice1": "Tequila",
     "choice2": "Singani",
     "choice3": "Chicha",
@@ -55,7 +55,7 @@
   },
   {
     "source":"",
-    "question": "Who was the person who is the first to reach space?",
+    "question": "Who was the first person to reach space?",
     "choice1": "Valentina Tereshkova",
     "choice2": "Yuri Gagarin",
     "choice3": "Alan Shepard",
@@ -118,7 +118,7 @@
   },
   {
     "source":"",
-    "question": "Which planet in our solar system is the largest?",
+    "question": "What is the largest planet in our solar system?",
     "choice1": "Earth",
     "choice2": "Saturn",
     "choice3": "Neptune",

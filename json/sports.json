@@ -1,7 +1,7 @@
 [
   {
     "source":"",
-    "question": "How many players are there on a polo team?",
+    "question": "How many players are there in a polo team?",
     "choice1": 3,
     "choice2": 4,
     "choice3": 5,
@@ -28,7 +28,7 @@
   },
   {
     "source":"",
-    "question": "The Derby Stakes, a major race in British horseracing, is ran at which track?",
+    "question": "The Derby Stakes, a major race in British horseracing, is run at which track?",
     "choice1": "Newmarket",
     "choice2": "Aintree",
     "choice3": "Epsom",
@@ -46,7 +46,7 @@
   },
   {
     "source":"",
-    "question": "Which of these events do men NOT compete in?",
+    "question": "Which of these gymnastic events do men NOT compete in?",
     "choice1": "Floor",
     "choice2": "Beam",
     "choice3": "Vault",
@@ -118,7 +118,7 @@
   },
   {
     "source":"",
-    "question": "In the game of billiards, what is the name used for the white billiard ball?",
+    "question": "In the game of billiards what is the name used for the white billiard ball?",
     "choice1": "Point Ball",
     "choice2": "White Ball",
     "choice3": "Main Ball",

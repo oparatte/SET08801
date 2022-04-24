@@ -46,7 +46,7 @@
   },
   {
     "source":"",
-    "question": "Which English band of the 1960s was fronted by singer Eric Burdon?",
+    "question": "Which 1960s English band was fronted by singer Eric Burdon?",
     "choice1": "The Kinks",
     "choice2": "The Rolling Stones",
     "choice3": "The Animals",
@@ -64,7 +64,7 @@
   },
   {
     "source":"",
-    "question": "Originally by Elvis Presley, who had a hit with the song \"Can't Help Falling in Love\" in 1993?",
+    "question": "Originally by Elvis Presley, who had a hit with \"Can't Help Falling in Love\" in 1993?",
     "choice1": "U2",
     "choice2": "Simply Red",
     "choice3": "UB40",
@@ -109,7 +109,7 @@
   },
   {
     "source":"",
-    "question": "The American band Blondie was founded in 1974 by guitarist Chris Stein and lead- singer …..",
+    "question": "The American band Blondie was founded in 1974 by guitarist Chris Stein and lead singer...",
     "choice1": "Kim Wilde",
     "choice2": "Chrissie Hynde",
     "choice3": "Debbie Harry",

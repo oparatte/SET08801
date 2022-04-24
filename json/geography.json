@@ -15,7 +15,7 @@
     "choice2": "Death Valley",
     "choice3": "Yosemite",
     "choice4": "Carlsbad Caverns",
-    "answer": 4
+    "answer": 1
   },
   {
     "source":"",
@@ -73,7 +73,7 @@
   },
   {
     "source":"",
-    "question": "Manitoulin Island is the world’s largest island in a lake. In which of the Great Lakes of North America is it found?",
+    "question": "In which of the Great Lakes of North America would you find Manitoulin Island?",
     "choice1": "Lake Huron",
     "choice2": "Lake Michigan",
     "choice3": "Lake Erie",
@@ -82,7 +82,7 @@
   },
   {
     "source":"",
-    "question": "What is the capital city of Ukraine?",
+    "question": "What is Ukraine's capital city?",
     "choice1": "Kiev",
     "choice2": "Vilnius",
     "choice3": "Minsk",
@@ -109,7 +109,7 @@
   },
   {
     "source":"",
-    "question": "Which is the tallest waterfall in USA?",
+    "question": "Which is the highest waterfall in the USA?",
     "choice1": "Victoria Fall",
     "choice2": "Yosemite Falls",
     "choice3": "Niagara Falls",

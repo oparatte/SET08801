@@ -1,7 +1,7 @@
 [
   {
     "source":"",
-    "question": "Servers are computers that provide resources to other computers connected to a",
+    "question": "Servers are computers that provide resources to other computers connected to a...",
     "choice1": "Client",
     "choice2": "Mainframe",
     "choice3": "Supercomputer",
@@ -10,7 +10,7 @@
   },
   {
     "source":"",
-    "question": "A program that is used to view websites is called a",
+    "question": "A program that is used to view websites is called a...",
     "choice1": "Browser",
     "choice2": "Web viewer",
     "choice3": "Spreadsheet",
@@ -28,7 +28,7 @@
   },
   {
     "source":"",
-    "question": "What is the term for unsolicited Email?",
+    "question": "What is the term used for unsolicited Email?",
     "choice1": "Spam",
     "choice2": "Backbone",
     "choice3": "Usenet",
@@ -55,7 +55,7 @@
   },
   {
     "source":"",
-    "question": "Documents converted to ____ can be published to the web",
+    "question": "Documents converted to ____ can be published on the web",
     "choice1": "Doc file",
     "choice2": "machine language",
     "choice3": "http",
@@ -100,7 +100,7 @@
   },
   {
     "source":"",
-    "question": "Generally to send data from a local computer to a remote computer/internet is called?",
+    "question": "Sending data from a local computer to a remote computer/internet is generally called?",
     "choice1": "Download",
     "choice2": "Upload",
     "choice3": "Editing",
@@ -109,7 +109,7 @@
   },
   {
     "source":"",
-    "question": "The process of communicating with a file from a terminal is",
+    "question": "The process of communicating with a file from a terminal is...",
     "choice1": "Heuristic",
     "choice2": "Interactive",
     "choice3": "Interrogation",
@@ -118,7 +118,7 @@
   },
   {
     "source":"",
-    "question": "Portion of server memory set aside to temporary hold data packets form workstations is called",
+    "question": "Portion of server memory set aside to temporary hold data packets form workstations is called...",
     "choice1": "Dirty packet buffer",
     "choice2": "Packet cache buffer",
     "choice3": "Packet block",
@@ -127,7 +127,7 @@
   },
   {
     "source":"",
-    "question": "The most common method for gaining access to the internet is through a",
+    "question": "The most common method for gaining access to the internet is through a...",
     "choice1": "Point-to-point computer",
     "choice2": "Virtual provider or computer",
     "choice3": "Provider or host computer",

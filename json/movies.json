@@ -1,7 +1,7 @@
 [
   {
     "source":"",
-    "question": "In the movie Good Will Hunting, which college does Skylar attend?",
+    "question": "In the movie Good Will Hunting which college does Skylar attend?",
     "choice1": "Harvard",
     "choice2": "Yale",
     "choice3": "Columbia",
@@ -10,7 +10,7 @@
   },
   {
     "source":"",
-    "question": "“I see dead people” is a line from which horror film…",
+    "question": "“I see dead people” is a line from which film?",
     "choice1": "The Sixth Sense",
     "choice2": "The Grudge",
     "choice3": "The Shining",
@@ -19,7 +19,7 @@
   },
   {
     "source":"",
-    "question": "The movie 10 Things I Hate About You was based on which play by Shakespeare:",
+    "question": "The movie 10 Things I Hate About You was based on which play by Shakespeare?",
     "choice1": "Taming of the Shrew",
     "choice2": "Hamlet",
     "choice3": "Romeo and Juliet",
@@ -37,7 +37,7 @@
   },
   {
     "source":"",
-    "question": "In Pirates of the Caribbean, what was Captain Jack Sparrow’s ship’s name?",
+    "question": "In Pirates of the Caribbean what is the name of Captain Jack Sparrow’s ship?",
     "choice1": "The Marauder",
     "choice2": "The Black Pearl",
     "choice3": "The Black Python",
@@ -46,7 +46,7 @@
   },
   {
     "source":"",
-    "question": "Han Solo is a character from which movie series:",
+    "question": "Han Solo is a character from which movie series?",
     "choice1": "Harry Potter",
     "choice2": "Star Wars",
     "choice3": "Lord of the Rings",
@@ -55,7 +55,7 @@
   },
   {
     "source":"",
-    "question": "Who directed Silence of the Lambs?",
+    "question": "Who directed Silence of the Lambs?",
     "choice1": "Wes Anderson",
     "choice2": "Jonathan Demme",
     "choice3": "Oliver Stone",
@@ -64,7 +64,7 @@
   },
   {
     "source":"",
-    "question": "What year was the first Die Hard movie released?",
+    "question": "In which year was the first Die Hard movie released?",
     "choice1": 1986,
     "choice2": 1988,
     "choice3": 1990,
@@ -73,7 +73,7 @@
   },
   {
     "source":"",
-    "question": "What was the movie’s name that featured Matthew McConaughey, Michael Caine, Anne Hathaway, John Lithgow, and Matt Damon?",
+    "question": "Which movie features Matthew McConaughey, Michael Caine, Anne Hathaway, John Lithgow, and Matt Damon?",
     "choice1": "Flight Plan",
     "choice2": "The Martian",
     "choice3": "Interstellar",
@@ -83,10 +83,10 @@
   {
     "source":"",
     "question": "In the movie The Princess Bride, what is Westley’s response to Buttercup’s requests?",
-    "choice1": "“Okay.”",
-    "choice2": "“Of course, I love you.”",
-    "choice3": "“As you wish.”",
-    "choice4": "“Anything for you.”",
+    "choice1": "“Okay”",
+    "choice2": "“Of course, I love you”",
+    "choice3": "“As you wish”",
+    "choice4": "“Anything for you”",
     "answer": 3
   },
   {
@@ -100,7 +100,7 @@
   },
   {
     "source":"",
-    "question": "According to Forrest Gump, “life is like…”",
+    "question": "According to Forrest Gump, “life is like...”",
     "choice1": "A bag of lemons",
     "choice2": "A handful of roses",
     "choice3": "A lollipop",
@@ -127,7 +127,7 @@
   },
   {
     "source":"",
-    "question": "In which movie does Anne Hathaway play a poor, homeless woman?",
+    "question": "In which movie does Anne Hathaway play a poor homeless woman?",
     "choice1": "The Devil Wears Prada",
     "choice2": "Ella Enchanted",
     "choice3": "The Princess Diaries",

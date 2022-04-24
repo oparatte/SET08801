@@ -4,7 +4,7 @@
     "question": "Who wrote \"don't count your chickens before they are hatched\"?",
     "choice1": "Aesop",
     "choice2": "Shakespeare",
-    "choice3": "Ben  Franklin",
+    "choice3": "Ben Franklin",
     "choice4": "Chaucer",
     "answer": 1
   },
@@ -46,7 +46,7 @@
   },
   {
     "source":"",
-    "question": "In which film do the words \"I love you\" save the planet earth?",
+    "question": "In which film do the words \"I love you\" save planet earth?",
     "choice1": "The Day After Tomorrow",
     "choice2": "The 5th Element",
     "choice3": "Mars Attacks",

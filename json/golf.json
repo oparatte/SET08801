@@ -19,7 +19,7 @@
   },
   {
     "source":"",
-    "question": "At which age can a player join the Seniors' Golf Tour?",
+    "question": "At what age can a player join the Seniors' Golf Tour?",
     "choice1": "40 years",
     "choice2": "50 years",
     "choice3": "65 years",
@@ -82,7 +82,7 @@
   },
   {
     "source":"",
-    "question": "One of the most successful golfers of all time, what is the real middle name of Tiger Woods?",
+    "question": "What is the middle name of Tiger Woods?",
     "choice1": "Mont",
     "choice2": "Tont",
     "choice3": "Lont",
@@ -96,7 +96,7 @@
     "choice2": "Mulligan",
     "choice3": "O'Malley",
     "choice4": "Finnegan",
-    "answer": 1
+    "answer": 2
   },
   {
     "source":"",

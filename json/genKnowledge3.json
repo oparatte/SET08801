@@ -37,7 +37,7 @@
   },
   {
     "source":"",
-    "question": "Festfolk was the original name for which group?",
+    "question": "Festfolk was the original name for which group?",
     "choice1": "The Beach Boys",
     "choice2": "ABBA",
     "choice3": "Motorhead",
@@ -100,7 +100,7 @@
   },
   {
     "source":"",
-    "question": "How many days does it take for mercury to orbit the sun is?",
+    "question": "How many days does it take for Mercury to orbit the Sun?",
     "choice1": "135 days",
     "choice2": "99 days",
     "choice3": "88 days",
@@ -109,7 +109,7 @@
   },
   {
     "source":"",
-    "question": "Which actor appeared in the Cranberries music video Ridiculous Thought?",
+    "question": "Which actor appeared in the Cranberries' music video Ridiculous Thought?",
     "choice1": "Bruce Willis",
     "choice2": "Donald Sutherland",
     "choice3": "George Clooney",
@@ -119,10 +119,10 @@
   {
     "source":"",
     "question": "Hypermetropic people are what?",
-    "choice1": "obese",
-    "choice2": "underfed",
-    "choice3": "moody",
-    "choice4": "far sighted",
+    "choice1": "Obese",
+    "choice2": "Underfed",
+    "choice3": "Moody",
+    "choice4": "Far sighted",
     "answer": 4
   },
   {

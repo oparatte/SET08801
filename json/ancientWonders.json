@@ -1,7 +1,7 @@
 [
   {
     "source":"",
-    "question": "Which of these is one of the ancient wonders of the world?",
+    "question": "Which of the following is one of the ancient wonders of the world?",
     "choice1": "The Temple of Luxor",
     "choice2": "Karnak",
     "choice3": "Great Pyramid of Giza",
@@ -10,7 +10,7 @@
   },
   {
     "source":"",
-    "question": "Which wonder is located in Ephesus?",
+    "question": "Which of the following is located in Ephesus?",
     "choice1": "The Lighthouse",
     "choice2": "The Hanging Garden",
     "choice3": "The Mausoleum",
@@ -19,9 +19,9 @@
   },
   {
     "source":"",
-    "question": "The Temple of Artemis is dedicated to the goddess of?",
+    "question": "The Temple of Artemis is dedicated to the goddess of...",
     "choice1": "The Hunt",
-    "choice2": "Harvest",
+    "choice2": "The Harvest",
     "choice3": "Wisdom",
     "choice4": "Home",
     "answer": 1
@@ -37,7 +37,7 @@
   },
   {
     "source":"",
-    "question": "Which wonder does legend say was created by Nebuchadnezzar?",
+    "question": "According to legend, which wonder was created by Nebuchadnezzar?",
     "choice1": "Colossus of Rhodes",
     "choice2": "The Mausoleum",
     "choice3": "The Hanging Gardens of Babylon",
@@ -46,7 +46,7 @@
   },
   {
     "source":"",
-    "question": "If you wanted to visit Babylon today, which nation would you have to visit?",
+    "question": "If you wanted to visit Babylon today, which country would you go to?",
     "choice1": "Iraq",
     "choice2": "Afghanistan",
     "choice3": "Egypt",
@@ -64,8 +64,8 @@
   },
   {
     "source":"",
-    "question": "Which wonder of the ancient world was designed by Satyros and Pythius?",
-    "choice1": "The Hanging Garden of Babylon",
+    "question": "Which wonder was designed by Satyros and Pythius?",
+    "choice1": "The Hanging Gardens of Babylon",
     "choice2": "The Great Pyramid of Giza",
     "choice3": "Colossus of Rhodes",
     "choice4": "Mausoleum",
@@ -77,21 +77,21 @@
     "choice1": "Lighthouse of Alexandria",
     "choice2": "Statue of Zeus at Olympia",
     "choice3": "Colossus of Rhodes",
-    "choice4": "The Hanging Garden of Babylon",
+    "choice4": "The Hanging Gardens of Babylon",
     "answer": 3
   },
   {
     "source":"",
     "question": "Which wonder was sculpted by Phidias?",
     "choice1": "Statue of Zeus at Olympia",
-    "choice2": "The Hanging Garden of Babylon",
+    "choice2": "The Hanging Gardens of Babylon",
     "choice3": "Colossus of Rhodes",
     "choice4": "The Temple of Artemis",
     "answer": 1
   },
   {
     "source":"",
-    "question": "If you wanted to see the site where the Mausoleum had been built, which country would you have to visit?",
+    "question": "If you want to see the site where the Mausoleum was built, which country would you go to?",
     "choice1": "Yemen",
     "choice2": "Turkey",
     "choice3": "Egypt",
@@ -101,7 +101,7 @@
   {
     "source":"",
     "question": "Which is the only wonder still standing?",
-    "choice1": "The Hanging Garden of Babylon",
+    "choice1": "The Hanging Gardens of Babylon",
     "choice2": "Great Pyramid of Giza",
     "choice3": "Colossus of Rhodes",
     "choice4": "The Temple of Artemis",
@@ -109,7 +109,7 @@
   },
   {
     "source":"",
-    "question": "In 1994, archeologists were able to find the remnants of which ancient wonder?",
+    "question": "In 1994 archeologists found the remnants of which ancient wonder?",
     "choice1": "The Hanging Garden of Babylon",
     "choice2": "The Lighthouse of Alexandria",
     "choice3": "Colossus of Rhodes",
@@ -118,7 +118,7 @@
   },
   {
     "source":"",
-    "question": "Which wonder was destroyed a vainglorious act of arson by Herostratus?",
+    "question": "Which wonder was destroyed by Herostratus in a vainglorious act of arson?",
     "choice1": "The Temple of Artemis",
     "choice2": "Colossus of Rhodes",
     "choice3": "The Lighthouse of Alexandria",

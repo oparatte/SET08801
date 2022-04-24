@@ -19,7 +19,7 @@
   },
   {
     "source":"",
-    "question": "The entire web document is contained within ?",
+    "question": "The entire web document is contained within...",
     "choice1": "Comments",
     "choice2": "Tags",
     "choice3": "Web page",
@@ -28,7 +28,7 @@
   },
   {
     "source":"",
-    "question": "HTML document should begin with the ?",
+    "question": "HTML document should begin with the...",
     "choice1": "<HEAD> tag",
     "choice2": "<TITLE> tag",
     "choice3": "<BODY> tag",
@@ -37,7 +37,7 @@
   },
   {
     "source":"",
-    "question": "The HTML and HTTP standard are defined by ?",
+    "question": "The HTML and HTTP standard are defined by...",
     "choice1": "Web client",
     "choice2": "Internet association",
     "choice3": "WWW consortium",
@@ -46,7 +46,7 @@
   },
   {
     "source":"",
-    "question": "GIF is the abbreviation of ?",
+    "question": "GIF is the abbreviation for...",
     "choice1": "Graphics Interchange Format",
     "choice2": "Graphics Instruction Format",
     "choice3": "Graphics Item Format",
@@ -55,7 +55,7 @@
   },
   {
     "source":"",
-    "question": "The <Font> tag is similar to ?",
+    "question": "The <Font> tag is similar to...",
     "choice1": "<BIG>tag",
     "choice2": "<SMALL>tag",
     "choice3": "<MARQUEE>tag",
@@ -91,7 +91,7 @@
   },
   {
     "source":"",
-    "question": "Web page editors works on a ____ principle",
+    "question": "Web page editors work on a ____ principle",
     "choice1": "WWW",
     "choice2": "HTML",
     "choice3": "WYSIWYG",
@@ -118,7 +118,7 @@
   },
   {
     "source":"",
-    "question": "What are shared on the Internet and are called as Web pages?",
+    "question": "What is shared on the Internet and are known as Web pages?",
     "choice1": "Programs",
     "choice2": "Cables",
     "choice3": "Hypertext documents",
@@ -127,7 +127,7 @@
   },
   {
     "source":"",
-    "question": "Transferring your HTML code from one machine to server is known as",
+    "question": "Transferring your HTML code from one machine to a server is known as...",
     "choice1": "Hosting",
     "choice2": "Indexing",
     "choice3": "Serving",
@@ -145,7 +145,7 @@
   },
   {
     "source":"",
-    "question": "The tag used to add images to the HTML document is ?",
+    "question": "The tag used to add images to the HTML document is...",
     "choice1": "<FONT>",
     "choice2": "<HR>",
     "choice3": "<HI>",
@@ -163,7 +163,7 @@
   },
   {
     "source":"",
-    "question": "Which are used with a tag to modify its function?",
+    "question": "What are used with a tag to modify its function?",
     "choice1": "Files",
     "choice2": "Attributes",
     "choice3": "Functions",
