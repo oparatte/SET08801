@@ -1,0 +1,137 @@
+[
+  {
+    "source":"mp3/BlueMonday.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "New Order",
+    "choice2": "Joy Division",
+    "choice3": "The Cure",
+    "choice4": "Pet Shop Boys",
+    "answer": 1
+  },
+  {
+    "source":"mp3/DontGo.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Erasure",
+    "choice2": "Yazoo",
+    "choice3": "Kraftwerk",
+    "choice4": "Ultravox",
+    "answer": 2
+  },
+  {
+    "source":"mp3/DontStopBelievin.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Odyssey",
+    "choice2": "Foreigner",
+    "choice3": "Journey",
+    "choice4": "Toto",
+    "answer": 3
+  },
+  {
+    "source":"mp3/DontYou.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Tears for Fears",
+    "choice2": "The Smiths",
+    "choice3": "The Pretenders",
+    "choice4": "Simple Minds",
+    "answer": 4
+  },
+  {
+    "source":"mp3/DontYouWantMe.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Spandau Ballet",
+    "choice2": "The Human League",
+    "choice3": "Soft Cell",
+    "choice4": "ABC",
+    "answer": 2
+  },
+  {
+    "source":"mp3/ElectricAvenue.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Billy Ocean",
+    "choice2": "Icehouse",
+    "choice3": "Eddy Grant",
+    "choice4": "Alphaville",
+    "answer": 3
+  },
+  {
+    "source":"mp3/EnolaGay.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "XTC",
+    "choice2": "OMG",
+    "choice3": "OTT",
+    "choice4": "OMD",
+    "answer": 4
+  },
+  {
+    "source":"mp3/JustCantGetEnough.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Depeche Mode",
+    "choice2": "Johnny Hates Jazz",
+    "choice3": "Talk Talk",
+    "choice4": "Culture Club",
+    "answer": 1
+  },
+  {
+    "source":"mp3/Material Girl.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Kim Wilde",
+    "choice2": "Madonna",
+    "choice3": "Samantha Fox",
+    "choice4": "Cyndi Lauper",
+    "answer": 2
+  },
+  {
+    "source":"mp3/NeedYouTonight.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Duran Duran",
+    "choice2": "Tears for Fears",
+    "choice3": "INXS",
+    "choice4": "Bronski Beat",
+    "answer": 3
+  },
+  {
+    "source":"mp3/NeverGonnaGiveYou Up.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Jason Donovan",
+    "choice2": "George Michael",
+    "choice3": "Donny Osmond",
+    "choice4": "Rick Astley",
+    "answer": 4
+  },
+  {
+    "source":"mp3/SheDrivesMeCrazy.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Fine Young Cannibals",
+    "choice2": "Bronski Beat",
+    "choice3": "The Communards",
+    "choice4": "Frankie Goes to Hollywood",
+    "answer": 1
+  },
+  {
+    "source":"mp3/WalkLikeanEgyptian.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Bananarama",
+    "choice2": "The Bangles",
+    "choice3": "The Go-Go's",
+    "choice4": "The Runaways",
+    "answer": 2
+  },
+  {
+    "source":"mp3/Youspinmeround.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Yazz",
+    "choice2": "The Spinners",
+    "choice3": "Dead or Alive",
+    "choice4": "Re-Flex",
+    "answer": 3
+  },
+  {
+    "source":"mp3/SweetDreams.mp3",
+    "question": "Who's singing this song?",
+    "choice1": "Roxette",
+    "choice2": "Kajagoogoo",
+    "choice3": "Propaganda",
+    "choice4": "Eurythmics",
+    "answer": 4
+  }
+]
