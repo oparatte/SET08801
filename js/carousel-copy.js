@@ -46,7 +46,7 @@ function slide(wrapper, items, prev, next) {
 
   function dragStart(e) {
     e = e || window.event;
-    e.preventDefault();
+    //e.preventDefault();
     posInitial = items.offsetLeft;
 
     if (e.type == 'touchstart') {

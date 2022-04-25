@@ -343,6 +343,7 @@ main img {
   height: 200px;
   position: relative;
   padding: 0px 10px;
+  touch-action: pan-y;
 }
 
 .wrapper {
@@ -375,30 +376,30 @@ main img {
 }
 
 #slide-1 {
-  background-image: url("/images/Game-of-thrones.jpg");
+  background-image: url("../images/Game-of-thrones.jpg");
   z-index: 100;
   background-size: cover;
 }
 
 #slide-2 {
-  background-image: url("/images/web-design.jpg");
+  background-image: url("../images/web-design.jpg");
   z-index: 100;
   background-size: cover;
 }
 #slide-3 {
-  background-image: url("/images/golf.jpg");
+  background-image: url("../images/golf.jpg");
   z-index: 100;
   background-size: cover;
 }
 
 #slide-4 {
-  background-image: url("/images/harry-potter.jpg");
+  background-image: url("../images/harry-potter.jpg");
   z-index: 100;
   background-size: cover;
 }
 
 #slide-5 {
-  background-image: url("/images/rock.jpg");
+  background-image: url("../images/rock.jpg");
   z-index: 100;
   background-size: cover;
 }
@@ -462,7 +463,7 @@ main img {
   border-radius: 50%;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 80;
-  font-size: 25px;
+  font-size: 18px;
   color: #fff;
   cursor: pointer;
 }
