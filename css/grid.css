@@ -370,8 +370,37 @@ main img {
   justify-content: center;
   transition: all 1s;
   position: relative;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 3px;
+}
+
+#slide-1 {
+  background-image: url("/images/Game-of-thrones.jpg");
+  z-index: 100;
+  background-size: cover;
+}
+
+#slide-2 {
+  background-image: url("/images/web-design.jpg");
+  z-index: 100;
+  background-size: cover;
+}
+#slide-3 {
+  background-image: url("/images/golf.jpg");
+  z-index: 100;
+  background-size: cover;
+}
+
+#slide-4 {
+  background-image: url("/images/harry-potter.jpg");
+  z-index: 100;
+  background-size: cover;
+}
+
+#slide-5 {
+  background-image: url("/images/rock.jpg");
+  z-index: 100;
+  background-size: cover;
 }
 
 .slide img {
@@ -445,7 +474,7 @@ main img {
 
 .next {
   padding: 10px 0 0 14px;
-  right: 15x;
+  right: 15px;
 }
 
 .prev:active,
