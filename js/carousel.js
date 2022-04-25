@@ -15,18 +15,21 @@ function slide(wrapper, items, prev, next) {
       firstSlide = slides[0],
       secondSlide = slides[1],
       thirdSlide = slides[2],
+      fourthSlide = slides[3],
       lastSlide = slides[slidesLength - 1],
       cloneFirst = firstSlide.cloneNode(true),
       cloneSecond = secondSlide.cloneNode(true),
       cloneThird = thirdSlide.cloneNode(true),
+      cloneFourth = fourthSlide.cloneNode(true),
       cloneLast = lastSlide.cloneNode(true),
       index = 0,
       allowShift = true;
   
-  // Clone first and last slide
+  // Clone slides
   items.appendChild(cloneFirst);
   items.appendChild(cloneSecond);
   items.appendChild(cloneThird);
+  items.appendChild(cloneFourth);
   items.insertBefore(cloneLast, firstSlide);
   wrapper.classList.add('loaded');
   
@@ -34,8 +37,7 @@ function slide(wrapper, items, prev, next) {
   items.onmousedown = dragStart;
   
   // Touch events
-  items.addEventListener('touchstart', dragStart);
-  //items.addEventListener('touchstart', dragStart, {passive:true});
+  items.addEventListener('touchstart', dragStart, {passive:true});
   items.addEventListener('touchend', dragEnd);
   items.addEventListener('touchmove', dragAction);
 
@@ -48,7 +50,6 @@ function slide(wrapper, items, prev, next) {
   
   function dragStart (e) {
     e = e || window.event;
-    e.preventDefault();
     posInitial = items.offsetLeft;
     
     if (e.type == 'touchstart') {

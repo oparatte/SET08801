@@ -69,7 +69,8 @@ main {
 
 nav {
   overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
+  position: fixed;
+  /* Set the navbar to fixed position */
 }
 
 nav {
@@ -386,6 +387,7 @@ main img {
   z-index: 100;
   background-size: cover;
 }
+
 #slide-3 {
   background-image: url("../images/golf.jpg");
   z-index: 100;
@@ -463,18 +465,18 @@ main img {
   border-radius: 50%;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 80;
-  font-size: 18px;
+  font-size: 25px;
   color: #fff;
   cursor: pointer;
 }
 
 .prev {
-  padding: 9px 0px 0px 8px;
+  padding: 5px 0px 0px 10px;
   left: 15px;
 }
 
 .next {
-  padding: 10px 0 0 14px;
+  padding: 5px 0 0 10px;
   right: 15px;
 }
 
@@ -553,18 +555,18 @@ main img {
   display: block;
   margin: 70px 10px;
   border: 3px solid var(--cultured);
-	border-radius: 5px;
+  border-radius: 5px;
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
 }
 
 .popup .btn {
-	display: block;
-	margin: 15px auto;
+  display: block;
+  margin: 15px auto;
 }
 
 .popup h1 {
   text-align: center;
-	margin: 15px 0 ;
+  margin: 15px 0;
 }
 
 .popup ul {
@@ -589,7 +591,8 @@ main img {
   justify-content: space-between;
 }
 
-#progress-text, #timer-counter {
+#progress-text,
+#timer-counter {
   font-size: 20px;
 }
 
@@ -620,7 +623,8 @@ main img {
 .answer-box {
   width: 100%;
   height: 70px;
-  line-height: 70px; /* adjust to center text*/
+  line-height: 70px;
+  /* adjust to center text*/
   max-height: 100%;
   border-radius: 5px;
   border: none;
@@ -658,54 +662,54 @@ main img {
 
 /*-------------- Result page display and layout --------------*/
 .results-container {
-	margin-top: 60px;
-	padding: 10px;
+  margin-top: 60px;
+  padding: 10px;
 }
 
 .score-box {
-	display: block;
-	padding: 10px;
-	border: 3px solid var(--cultured);
-	border-radius: 5px;
-	padding: 10px;
-	min-height: 300px;
-	max-width: 600px;
-	box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
+  display: block;
+  padding: 10px;
+  border: 3px solid var(--cultured);
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 300px;
+  max-width: 600px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
 }
 
 .score-box h2 {
-	font-size: 24px;
-	color: var(--carolina-blue);
-	margin: 10px 0 ;
+  font-size: 24px;
+  color: var(--carolina-blue);
+  margin: 10px 0;
 }
 
 .score-box h3 {
-	margin: 10px 0;
-	font-size: 18px;
+  margin: 10px 0;
+  font-size: 18px;
 }
 
 .score-box img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 300px;
-	border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  border-radius: 5px;
 }
 
 /* Buttons formatting for result, contact and leaderboard pages */
 .btn {
-	background-color: var(--golden-poppy);
-	color: #fff;
-	border-radius: 5px;
-	border: none;
-	padding: 15px;
-	width: 150px;
-	cursor: pointer;
+  background-color: var(--golden-poppy);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 15px;
+  width: 150px;
+  cursor: pointer;
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
 }
 
 /* Buttons sub container */
-.score-options {  
+.score-options {
   display: grid;
   grid: auto-flow / repeat(6, 1fr);
   gap: 10px;
@@ -713,35 +717,41 @@ main img {
 }
 
 .score-options .btn {
-	width: 100%;
+  width: 100%;
 }
 
 .score-options .save-btn {
-	grid-column: span 6;
+  grid-column: span 6;
 }
 
 .score-options .option-btn {
-	grid-column: span 3;
+  grid-column: span 3;
 }
 
-.btn:hover {opacity: 0.8;}
+.btn:hover {
+  opacity: 0.8;
+}
 
-.btn:active {transform: scale(0.9)}
+.btn:active {
+  transform: scale(0.9)
+}
 
 .btn[disabled] {
-	opacity: 0.5;
-	cursor: not-allowed;
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 /* Input fields formatting for result and contact pages */
-input[type=text], input[type="email"], textarea {
-	width: 100%;
-	padding: 5px;
-	margin: 10px 0;
-	display: inline-block;
-	box-sizing: border-box;
-	border: 2px solid var(--cultured);
-	border-radius: 5px;
+input[type=text],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 2px solid var(--cultured);
+  border-radius: 5px;
   margin-top: 5px;
   margin-bottom: 15px;
 }
@@ -749,25 +759,25 @@ input[type=text], input[type="email"], textarea {
 /*-------------- Leaderboard page display and layout --------------*/
 
 .leaderboard-container {
-	margin: 60px 0 30px 0;
-	padding: 10px;
+  margin: 60px 0 30px 0;
+  padding: 10px;
 }
 
 .leaderboard-box {
-	display: block;
-	padding: 10px;
-	border: 3px solid var(--cultured);
-	border-radius: 5px;
-	padding: 10px;
+  display: block;
+  padding: 10px;
+  border: 3px solid var(--cultured);
+  border-radius: 5px;
+  padding: 10px;
   min-width: 350px;
-	max-width: 600px;
+  max-width: 600px;
   min-height: 500px;
-	box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
 }
 
 .leaderboard-box h1 {
-	text-align: center;
-	padding: 0;
+  text-align: center;
+  padding: 0;
   margin: 10px 0 15px 0;
 }
 
@@ -798,7 +808,9 @@ input[type=text], input[type="email"], textarea {
 }
 
 /* Table odd rows colour */
-#leaderboard tr:nth-child(odd){background-color: var(--cultured);}
+#leaderboard tr:nth-child(odd) {
+  background-color: var(--cultured);
+}
 
 
 .leaderboard-btn {
@@ -811,50 +823,50 @@ input[type=text], input[type="email"], textarea {
 
 /* Format contact container */
 .contact-form {
-	display: block;
-	margin: 60px 10px;
-	padding: 10px;
-	border: 3px solid var(--cultured);
-	border-radius: 5px;
-	padding: 10px;
+  display: block;
+  margin: 60px 10px;
+  padding: 10px;
+  border: 3px solid var(--cultured);
+  border-radius: 5px;
+  padding: 10px;
   min-width: 350px;
-	max-width: 700px;
-	box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
+  max-width: 700px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .2);
 }
 
 /* Format message input box */
 textarea {
-	height:100px;
-	resize: vertical;
-  }
+  height: 100px;
+  resize: vertical;
+}
 
 .contact-form label {
-	font-size: 18px;
-	color: var(--carolina-blue);
+  font-size: 18px;
+  color: var(--carolina-blue);
 }
 
 .contact-form h1 {
-	text-align: center;
-	padding: 0;
+  text-align: center;
+  padding: 0;
   margin: 0;
 }
 
 /* Format Submit button */
 .contact-form .btn {
-	display: block;
-	margin: auto;
+  display: block;
+  margin: auto;
 }
 
 /* Highlight invalid email input */
 .contact-form input[type=email]:invalid:not(:focus):not(:placeholder-shown) {
-	border: 2px solid var(--crimson);
+  border: 2px solid var(--crimson);
 }
 
 /* Add red asterisk to mandatory input lables */
 .contact-form .required:after {
-    content:" *";
-    color: var(--crimson);
-  }
+  content: " *";
+  color: var(--crimson);
+}
 
 
 /*---------------------- Media queries ----------------------*/
@@ -897,17 +909,18 @@ textarea {
   }
 
   /*** Result page adjustment ***/
-  
+
   /* Result container */
   .results-container {
     margin-top: 50px;
   }
 
   /* Buttons sub container */
-  .score-options .option-btn, .save-btn {
+  .score-options .option-btn,
+  .save-btn {
     grid-column: span 2;
   }
-  
+
   .score-options .save-btn {
     grid-column: span 2;
   }
@@ -918,7 +931,9 @@ textarea {
     margin: 60px auto;
   }
 
-}/* End of small devices - landscape mode */
+}
+
+/* End of small devices - landscape mode */
 
 /*-------  Medium devices - 768px and up -------*/
 @media only screen and (min-width: 768px) {
@@ -942,7 +957,7 @@ textarea {
   }
 
   /*** Home page adjustment ***/
-  
+
   /* Slider adjustment */
   .labeled h6 {
     font-size: 20px;
@@ -978,7 +993,7 @@ textarea {
   .popup {
     min-width: 500px;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
     display: block;
@@ -992,10 +1007,12 @@ textarea {
   }
 
   /*** Result page adjustment ***/
-  
+
   /* Input fields formatting for result and contact pages */
-  input[type=text], input[type="email"], textarea {
-	  padding: 10px;
+  input[type=text],
+  input[type="email"],
+  textarea {
+    padding: 10px;
   }
 
   /* Result container */
@@ -1041,7 +1058,9 @@ textarea {
     padding: 8px 10px;
   }
 
-} /* End of medium devices - 768px and up */
+}
+
+/* End of medium devices - 768px and up */
 
 /*------- Large devices - 992px and up) -------*/
 @media only screen and (min-width:992px) {
@@ -1072,7 +1091,7 @@ textarea {
   }
 
   /*** Font size adjustment ***/
-  
+
   h1 {
     font-size: 2.3em;
   }
@@ -1103,7 +1122,9 @@ textarea {
     height: 300px;
   }
 
-  .slides {left: -300px;}
+  .slides {
+    left: -300px;
+  }
 
   .slide {
     width: 300px;
@@ -1123,15 +1144,12 @@ textarea {
     top: 120px;
     width: 50px;
     height: 50px;
-    font-size: 30px;
+    font-size: 40px;
   }
 
-  .prev {
-    padding: 9px 0px 0px 8px;
-  }
-  
+  .prev,
   .next {
-    padding: 10px 0 0 14px;
+    padding: 5px 0px 0px 12px;
   }
 
   /* Categories adjustment */
@@ -1153,8 +1171,8 @@ textarea {
   .footer-right {
     border-top: none;
   }
-  
-  /*** score page size agjustments ***/	
+
+  /*** score page size agjustments ***/
   .score-box h2 {
     font-size: 30px;
   }
@@ -1163,6 +1181,8 @@ textarea {
     font-size: 22 px;
   }
 
-} /* End of large devices - 992px and up */
+}
+
+/* End of large devices - 992px and up */
 
 /*------- Extra large devices - 1200px and up) -------*/

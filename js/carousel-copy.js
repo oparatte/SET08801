@@ -32,7 +32,6 @@ function slide(wrapper, items, prev, next) {
 
   // Mouse events
   items.onmousedown = dragStart;
-
   items.addEventListener('touchstart', dragStart, {passive:true});
   items.addEventListener('touchend', dragEnd);
   items.addEventListener('touchmove', dragAction);
@@ -46,7 +45,6 @@ function slide(wrapper, items, prev, next) {
 
   function dragStart(e) {
     e = e || window.event;
-    //e.preventDefault();
     posInitial = items.offsetLeft;
 
     if (e.type == 'touchstart') {
