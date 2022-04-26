@@ -11,7 +11,7 @@ const correctAnswers = localStorage.getItem('latestCorrect'); // reference to nb
 // Read highScores array from local storage or create dummy scores
 const highScores = JSON.parse(localStorage.getItem('highScores')) ||
 [
-{"Name": "Keyser Söze","Score": 652},
+{"Name": "Keyser Söze","Score": 672},
 {"Name": "Ellen Ripley","Score": 547},
 {"Name": "Sarah Connor","Score": 524},
 {"Name": "Michael Corleone","Score": 491},
@@ -23,9 +23,7 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) ||
 {"Name": "Joey Tribbiani","Score": 150}
 ]; 
 
-// Constants definition
-const MAX_HIGH_SCORES = 5; // top N socre to save
-
+// Result variable text
 finalScore.innerText = "You've scored " + latestScore + ' Points';
 nbCorrectAnswers.innerText = "You've answered " + correctAnswers + ' questions correctly';
 
