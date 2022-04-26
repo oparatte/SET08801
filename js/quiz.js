@@ -1,3 +1,5 @@
+// Adapted from https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
+
 // References to various elements
 const question = document.getElementById('question'); // reference to question element
 const answers = Array.from(document.getElementsByClassName('answer-box')); //reference to answers text
